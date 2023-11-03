@@ -19,11 +19,23 @@ uint8_t uart_getc()
     return (UART0_REG(UART0_RXDATA) & 0xff);
 }
 
+uint8_t uart_getc_nowait()
+{
+    if (UART0_REG(UART0_STATUS) & 0x2){
+        uint8_t data = UART0_REG(UART0_RXDATA) & 0xff;
+        UART0_REG(UART0_STATUS) &= ~0x2;
+        return data;
+    }
+    return 0;
+}
+
 // 115200bps, 8 N 1
 void uart_init()
 {
     // enable tx and rx
     UART0_REG(UART0_CTRL) = 0x3;
-
+    
     xdev_out(uart_putc);
+    
+    UART0_REG(UART0_STATUS) &= ~0x2;
 }
