@@ -9,6 +9,8 @@
 #define DELAY_US(a) busy_wait(a)
 #define DELAY_MS(a) busy_wait(a * 1000)
 
+#define PLAY(a) BUZZ_UP();busy_wait(1000000/a);BUZZ_DOWN();busy_wait(1000000/a);
+
 //global param
 #define GAME_COUNT 3
 #define GAME_RANDOM (uint8_t)frame_time*113
@@ -31,7 +33,7 @@
 
 #define TETRIS_MAP_HEIGHT 12
 #define TETRIS_MAP_WIDTH 16
-#define TETRIS_DELAY 10//1000/50
+#define TETRIS_DELAY 8//1000/50
 
 
 #pragma region GPIO
@@ -681,10 +683,10 @@ void ui_draw_gameover(){
     lcd_draw_string(LCD_HEIGHT/2-144, LCD_WIDTH/2+0,"GAME OVER",COLOR_BLACK,2);
     lcd_draw_string(LCD_HEIGHT/2-140, LCD_WIDTH/2+4,"GAME OVER",COLOR_WHITE,2);
     for(int i=0;i<500;i++){
-        BUZZ_DOWN();
-        DELAY_MS(2);
-        BUZZ_UP();
-        DELAY_MS(2);
+        // BUZZ_DOWN();
+        // DELAY_MS(2);
+        // BUZZ_UP();
+        // DELAY_MS(2);
     }
 }
 
@@ -746,8 +748,6 @@ void ui_draw_scene(uint8_t id){
         lcd_clear(COLOR_BLUE);
     }
 }
-
-
 #pragma endregion
 
 int main()
@@ -927,8 +927,8 @@ int main()
                         ty_temp[i]=ty[i]-ty[2];
                     }
                     for(int i=0;i<4;i++){
-                        tx[i]=tx_temp[i]*0-ty_temp[i]*1+tx[i];
-                        ty[i]=tx_temp[i]*1+ty_temp[i]*0+ty[i];
+                        tx[i]=tx_temp[i]*0-ty_temp[i]*1+tx[2];
+                        ty[i]=tx_temp[i]*1+ty_temp[i]*0+ty[2];
                     }
                 }
                 else if(data == COMMAND_S && movable&(0x01<<1)){
@@ -979,7 +979,18 @@ int main()
         }
         else {
             if(state==0){
-                
+                for(int i=0;i<50;i++){
+                    PLAY(500);
+                }
+                for(int i=0;i<50;i++){
+                    PLAY(700);
+                }
+                for(int i=0;i<50;i++){
+                    PLAY(500);
+                }
+                for(int i=0;i<50;i++){
+                    PLAY(800);
+                }
             }
 
             else if(state==1){
@@ -1114,14 +1125,36 @@ int main()
                     for(int i=0;i<4;i++){
                         tetris_map[ty[i]][tx[i]]=1;
                     }
-                    tx[0]=7;
-                    tx[1]=6;
-                    tx[2]=7;
-                    tx[3]=8;
-                    ty[0]=11;
-                    ty[1]=10;
-                    ty[2]=10;
-                    ty[3]=10;
+                    if(GAME_RANDOM%3==0){
+                        tx[0]=7;
+                        tx[1]=6;
+                        tx[2]=7;
+                        tx[3]=8;
+                        ty[0]=11;
+                        ty[1]=10;
+                        ty[2]=10;
+                        ty[3]=10;
+                    }
+                    else if(GAME_RANDOM%3==1){
+                        tx[0]=6;
+                        tx[1]=6;
+                        tx[2]=7;
+                        tx[3]=8;
+                        ty[0]=11;
+                        ty[1]=10;
+                        ty[2]=10;
+                        ty[3]=10;
+                    }
+                    else if(GAME_RANDOM%3==2){
+                        tx[0]=6;
+                        tx[1]=7;
+                        tx[2]=6;
+                        tx[3]=7;
+                        ty[0]=11;
+                        ty[1]=11;
+                        ty[2]=10;
+                        ty[3]=10;
+                    }
                     for(int i=0;i<TETRIS_MAP_HEIGHT;i++){//check a line
                         for(int j=0;j<TETRIS_MAP_WIDTH;j++){
                             if(tetris_map[i][j]!=1){
@@ -1141,20 +1174,20 @@ int main()
                         }
                     }
                 }
-
+                
                 //draw
                 for(int i=0;i<TETRIS_MAP_HEIGHT;i++){
                     for(int j=0;j<TETRIS_MAP_WIDTH;j++){
                         if(tetris_map[i][j]==0){
                             lcd_draw_rect(j*LCD_HEIGHT/TETRIS_MAP_WIDTH, i*LCD_WIDTH/TETRIS_MAP_HEIGHT, LCD_HEIGHT/TETRIS_MAP_WIDTH, LCD_WIDTH/TETRIS_MAP_HEIGHT, COLOR_WHITE);
+                            for(int k=0;k<4;k++)
+                                if(i==ty[k]&&j==tx[k])
+                                    lcd_draw_rect(j*LCD_HEIGHT/TETRIS_MAP_WIDTH, i*LCD_WIDTH/TETRIS_MAP_HEIGHT, LCD_HEIGHT/TETRIS_MAP_WIDTH, LCD_WIDTH/TETRIS_MAP_HEIGHT, COLOR_GREEN);
                         }
                         else {
                             lcd_draw_rect(j*LCD_HEIGHT/TETRIS_MAP_WIDTH, i*LCD_WIDTH/TETRIS_MAP_HEIGHT, LCD_HEIGHT/TETRIS_MAP_WIDTH, LCD_WIDTH/TETRIS_MAP_HEIGHT, COLOR_RED);
                         }
                     }
-                }
-                for(int i=0;i<4;i++){
-                    lcd_draw_rect(tx[i]*LCD_HEIGHT/TETRIS_MAP_WIDTH, ty[i]*LCD_WIDTH/TETRIS_MAP_HEIGHT, LCD_HEIGHT/TETRIS_MAP_WIDTH, LCD_WIDTH/TETRIS_MAP_HEIGHT, COLOR_GREEN);
                 }
             }
         }

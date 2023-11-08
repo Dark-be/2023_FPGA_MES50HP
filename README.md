@@ -1,12 +1,21 @@
 # 介绍
 
 * 本项目使用**MES50HP**开发板
-* 移植了[**tinyriscv**](https://github.com/liangkangnan/tinyriscv)
+* 移植了[tinyriscv](https://github.com/liangkangnan/tinyriscv)，并对其进行了修改和拓展。
 
 ## 项目结构
 
-
+* 通过按键或串口向处理器发送游戏操作命令，分为'A','W','S','D','Q'
+* 通过SPI驱动ILI9341 LCD显示屏，显示游戏界面并进行对应操作
+* 自制游戏手柄使用esp32进行串口通讯，连接开发板uart即可进行操作
 
 ## 项目进度
 
-v1.0 使用**SPI**驱动**ILI9341 LCD**显示屏
+* v0.1 实现了tinyriscv的移植，能够在MES50HP上运行
+* v0.5 修改了tinyriscv的代码，使其能够支持更多传感器和设备
+* v1.0 使用SPI驱动ILI9341 LCD显示屏
+* v1.1 实现贪吃蛇，以及简易的UI界面
+* v1.2 实现俄罗斯方块
+* v1.3 添加了英文字库，能够按指定大小显示英文字符
+* v2.0 添加振动器，蜂鸣器，灯珠等，能够随游戏进行反应。
+
