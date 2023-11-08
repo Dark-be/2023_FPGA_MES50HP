@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/clint.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/csr_reg.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/ctrl.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/div.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/ex.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/id.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/id_ex.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/if_id.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/pc_reg.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/regs.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/rib.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/core/tinyriscv.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/debug/uart_debug.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/perips/gpio.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/perips/ram.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/perips/rom.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/perips/spi.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/perips/timer.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/perips/uart.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>E:/PangoPro/tinyriscv/ipcore/pll/pll.idf</data>
+            <data>IP</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:6s</data>
+            <data>159</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 7 5800H with Radeon Graphics</data>
+            <data>15</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/clint.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/clint.v(line number: 22)] Analyzing module clint (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/csr_reg.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/csr_reg.v(line number: 20)] Analyzing module csr_reg (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/ctrl.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/ctrl.v(line number: 21)] Analyzing module ctrl (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/div.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/div.v(line number: 22)] Analyzing module div (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/ex.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/ex.v(line number: 21)] Analyzing module ex (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/id.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/id.v(line number: 21)] Analyzing module id (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/id_ex.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/id_ex.v(line number: 20)] Analyzing module id_ex (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/if_id.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/if_id.v(line number: 20)] Analyzing module if_id (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/pc_reg.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/pc_reg.v(line number: 20)] Analyzing module pc_reg (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/regs.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/regs.v(line number: 20)] Analyzing module regs (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/rib.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/rib.v(line number: 21)] Analyzing module rib (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/core/tinyriscv.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 20)] Analyzing module tinyriscv (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/debug/uart_debug.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 44)] Analyzing module uart_debug (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/perips/gpio.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/perips/gpio.v(line number: 19)] Analyzing module gpio (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/perips/ram.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/perips/ram.v(line number: 20)] Analyzing module ram (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/perips/rom.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/perips/rom.v(line number: 20)] Analyzing module rom (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/perips/spi.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/perips/spi.v(line number: 19)] Analyzing module spi (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/perips/timer.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/perips/timer.v(line number: 21)] Analyzing module timer (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/perips/uart.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/perips/uart.v(line number: 19)] Analyzing module uart (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v</data>
+        </row>
+        <row>
+            <data message="4">Found Verilog include file E:/PangoPro/tinyriscv/source/core/defines.v</data>
+        </row>
+        <row>
+            <data message="5">Public-4030: File 'E:/PangoPro/tinyriscv/source/core/defines.v' has been added. It is skipped.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 20)] Analyzing module tinyriscv_soc_top (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file E:/PangoPro/tinyriscv/ipcore/pll/pll.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 20)] Analyzing module pll (library work)</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;tinyriscv_soc_top&quot; is set as top module.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 20)] Elaborating module tinyriscv_soc_top</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 161)] Elaborating instance u_pll</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 20)] Elaborating module pll</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 230)] Elaborating instance u_pll_e3</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 117)] Net clkfb in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 120)] Net pfden in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 121)] Net clkout0_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 122)] Net clkout0_2pad_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 123)] Net clkout1_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 124)] Net clkout2_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 125)] Net clkout3_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 126)] Net clkout4_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 127)] Net clkout5_gate in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 128)] Net dyn_idiv in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 129)] Net dyn_odiv0 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 130)] Net dyn_odiv1 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 131)] Net dyn_odiv2 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 132)] Net dyn_odiv3 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 133)] Net dyn_odiv4 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 134)] Net dyn_fdiv in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 135)] Net dyn_duty0 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 136)] Net dyn_duty1 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 137)] Net dyn_duty2 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 138)] Net dyn_duty3 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [E:/PangoPro/tinyriscv/ipcore/pll/pll.v(line number: 139)] Net dyn_duty4 in pll(original module pll) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 167)] Elaborating instance u_tinyriscv</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 20)] Elaborating module tinyriscv</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 141)] Elaborating instance u_pc_reg</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/pc_reg.v(line number: 20)] Elaborating module pc_reg</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 152)] Elaborating instance u_ctrl</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/ctrl.v(line number: 21)] Elaborating module ctrl</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 166)] Elaborating instance u_regs</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/regs.v(line number: 20)] Elaborating module regs</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 181)] Elaborating instance u_csr_reg</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/csr_reg.v(line number: 20)] Elaborating module csr_reg</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 201)] Elaborating instance u_if_id</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/if_id.v(line number: 20)] Elaborating module if_id</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 214)] Elaborating instance u_id</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/id.v(line number: 21)] Elaborating module id</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 238)] Elaborating instance u_id_ex</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/id_ex.v(line number: 20)] Elaborating module id_ex</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 263)] Elaborating instance u_ex</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/ex.v(line number: 21)] Elaborating module ex</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 304)] Elaborating instance u_div</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/div.v(line number: 22)] Elaborating module div</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 320)] Elaborating instance u_clint</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/clint.v(line number: 22)] Elaborating module clint</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2024: [E:/PangoPro/tinyriscv/source/core/clint.v(line number: 22)] Give an initial value for the no drive output pin raddr_o in graph of sdm module clint</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 141)] Net jtag_reset_flag_i connected to input port of module instance tinyriscv_soc_top.u_tinyriscv.u_pc_reg has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [E:/PangoPro/tinyriscv/source/core/tinyriscv.v(line number: 152)] Net jtag_halt_flag_i connected to input port of module instance tinyriscv_soc_top.u_tinyriscv.u_ctrl has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 188)] Elaborating instance u_rom</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/perips/rom.v(line number: 20)] Elaborating module rom</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 200)] Elaborating instance u_ram</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/perips/ram.v(line number: 20)] Elaborating module ram</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 212)] Elaborating instance timer_0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/perips/timer.v(line number: 21)] Elaborating module timer</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2024: [E:/PangoPro/tinyriscv/source/perips/timer.v(line number: 21)] Give an initial value for the no drive output pin ack_o in graph of sdm module timer</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 225)] Elaborating instance uart_0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/perips/uart.v(line number: 19)] Elaborating module uart</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2024: [E:/PangoPro/tinyriscv/source/perips/uart.v(line number: 19)] Give an initial value for the no drive output pin ack_o in graph of sdm module uart</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 264)] The index 8 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 267)] The index 9 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 270)] The index 10 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 273)] The index 11 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 276)] The index 12 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 279)] The index 13 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 282)] The index 14 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="5">[E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 285)] The index 15 of io_in is out range.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 288)] Elaborating instance gpio_0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/perips/gpio.v(line number: 19)] Elaborating module gpio</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2024: [E:/PangoPro/tinyriscv/source/perips/gpio.v(line number: 19)] Give an initial value for the no drive output pin ack_o in graph of sdm module gpio</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2019: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 297)] Width mismatch between port io_pin_i and signal bound to it for instantiated module gpio</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 303)] Elaborating instance spi_0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/perips/spi.v(line number: 19)] Elaborating module spi</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2024: [E:/PangoPro/tinyriscv/source/perips/spi.v(line number: 19)] Give an initial value for the no drive output pin ack_o in graph of sdm module spi</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 319)] Elaborating instance u_rib</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/core/rib.v(line number: 21)] Elaborating module rib</data>
+        </row>
+        <row>
+            <data message="4">Module instance {tinyriscv_soc_top.u_rib} parameter value:
+    slave_0 = 4'b0000
+    slave_1 = 4'b0001
+    slave_2 = 4'b0010
+    slave_3 = 4'b0011
+    slave_4 = 4'b0100
+    slave_5 = 4'b0101
+    grant0 = 2'b00
+    grant1 = 2'b01
+    grant2 = 2'b10
+    grant3 = 2'b11</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 407)] Elaborating instance u_uart_debug</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 44)] Elaborating module uart_debug</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 319)] Net m2_addr_i connected to input port of module instance tinyriscv_soc_top.u_rib has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 319)] Net m2_data_i connected to input port of module instance tinyriscv_soc_top.u_rib has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 319)] Net m2_req_i connected to input port of module instance tinyriscv_soc_top.u_rib has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [E:/PangoPro/tinyriscv/source/soc/tinyriscv_soc_top.v(line number: 319)] Net m2_we_i connected to input port of module instance tinyriscv_soc_top.u_rib has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/perips/rom.v(line number: 38)] Found Ram _rom, depth=4096, width=32.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/perips/ram.v(line number: 38)] Found Ram _ram, depth=4096, width=32.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/debug/uart_debug.v(line number: 229)] Found Ram rx_data, depth=256, width=8.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/core/regs.v(line number: 50)] Found Ram regs, depth=32, width=32.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: [E:/PangoPro/tinyriscv/source/core/regs.v(line number: 50)] Found Ram regs, depth=32, width=32.</data>
+        </row>
+        <row>
+            <data message="4">FSM state_fsm[3:0] inferred.</data>
+        </row>
+        <row>
+            <data message="4">FSM state_fsm[3:0] inferred.</data>
+        </row>
+        <row>
+            <data message="4">FSM state_fsm[1:0] inferred.</data>
+        </row>
+        <row>
+            <data message="4">FSM csr_state_fsm[4:0] inferred.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N16 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N20 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N17 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N18 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N19 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N260 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N245_2 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N256 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N247_2 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N250 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+    </table>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL50H-6FBG484</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>tinyriscv_soc_top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>SystemVerilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>E:/PangoPro/tinyriscv	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>auto</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

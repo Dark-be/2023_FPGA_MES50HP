@@ -1,0 +1,58 @@
+##### Written on 2023/11/08 00:00:04 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	tinyriscv_soc_top
+
+Constraint File(s) : 
+	E:/PangoPro/tinyriscv/tinyriscv.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 3 critical warning(s), 0 warning(s), out of 188 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:rst} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [E:/PangoPro/tinyriscv/tinyriscv.fdc(line number: 51)] | Port rst has been placed at location K18, whose type is share pin.
+
+define_attribute {p:gpio[5]} {PAP_IO_LOC} {Y5}
+
+	C: ConstraintEditor-2002: [E:/PangoPro/tinyriscv/tinyriscv.fdc(line number: 87)] | Port gpio[5] has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:gpio[4]} {PAP_IO_LOC} {AB5}
+
+	C: ConstraintEditor-2002: [E:/PangoPro/tinyriscv/tinyriscv.fdc(line number: 94)] | Port gpio[4] has been placed at location AB5, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

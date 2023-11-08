@@ -1,0 +1,2060 @@
+[Info] [2023-10-25 19:58:12] /***************************Start Configuration***************************/
+[Info] [2023-10-25 19:58:12] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-25 19:58:12] Version: 99559
+[Info] [2023-10-25 19:58:13] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-25 19:58:13] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-25 19:58:25] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-25 19:58:25] Client Local host name:GGB
+[Debug] [2023-10-25 19:58:25] Client Local Address:10.133.253.224
+[Debug] [2023-10-25 19:58:25] Client Local Address:192.168.137.1
+[Debug] [2023-10-25 19:58:25] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-25 19:58:26] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-25 19:58:26] Finish.
+[Info] [2023-10-25 19:58:26] Connect server succeeded
+[Debug] [2023-10-25 19:58:26] Send RPC:1
+[Debug] [2023-10-25 19:58:26] Send cmd [check version information:40005] OK
+[Debug] [2023-10-25 19:58:27] Send RPC:2
+[Debug] [2023-10-25 19:58:27] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-25 19:58:27] Begin to send initialize chain cmd...
+[Debug] [2023-10-25 19:58:27] Send RPC:3
+[Debug] [2023-10-25 19:58:27] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-25 19:58:27] End to send initialize chain cmd.
+[Debug] [2023-10-25 19:58:27] COMMAND[check version information] execute successfully, takes 1.0 secs.
+[Debug] [2023-10-25 19:58:29] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2023-10-25 19:58:29] begin the exec of open cable cmd...
+[Debug] [2023-10-25 19:58:29] Begin to deal with chain from server...
+[Debug] [2023-10-25 19:58:29] Begin to set user chain...
+[Debug] [2023-10-25 19:58:29] End to set user chain.
+[Debug] [2023-10-25 19:58:29] Begin to update graphic item and tree item ...
+[Debug] [2023-10-25 19:58:29] End to update graphic item and tree item ...
+[Info] [2023-10-25 19:58:32] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-25 19:58:32] begin to get device info from CFG file...
+[Debug] [2023-10-25 19:58:32] end to get device info from CFG file...
+[Debug] [2023-10-25 19:58:32] Begin to update graphic item and tree item ...
+[Debug] [2023-10-25 19:58:32] End to update graphic item and tree item ...
+[Debug] [2023-10-25 19:58:32] End to deal wiht chain from server.
+[Debug] [2023-10-25 19:58:32] end the exec of open cable cmd.
+[Debug] [2023-10-25 19:58:32] COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2023-10-25 19:58:35] Begin to send programming cmd...
+[Debug] [2023-10-25 19:58:35] Send RPC:4
+[Debug] [2023-10-25 19:58:35] Begin to send program data.
+[Debug] [2023-10-25 19:58:35] End to send program data.
+[Debug] [2023-10-25 19:58:35] Send cmd [Program:20002] OK
+[Debug] [2023-10-25 19:58:36] The value of Progress is 6
+[Debug] [2023-10-25 19:58:36] The value of Progress is 10
+[Debug] [2023-10-25 19:58:36] The value of Progress is 15
+[Debug] [2023-10-25 19:58:36] The value of Progress is 20
+[Debug] [2023-10-25 19:58:36] The value of Progress is 25
+[Debug] [2023-10-25 19:58:36] The value of Progress is 30
+[Debug] [2023-10-25 19:58:36] The value of Progress is 35
+[Debug] [2023-10-25 19:58:37] The value of Progress is 40
+[Debug] [2023-10-25 19:58:37] The value of Progress is 45
+[Debug] [2023-10-25 19:58:37] The value of Progress is 50
+[Debug] [2023-10-25 19:58:37] The value of Progress is 55
+[Debug] [2023-10-25 19:58:37] The value of Progress is 60
+[Debug] [2023-10-25 19:58:37] The value of Progress is 65
+[Debug] [2023-10-25 19:58:37] The value of Progress is 70
+[Debug] [2023-10-25 19:58:37] The value of Progress is 75
+[Debug] [2023-10-25 19:58:37] The value of Progress is 80
+[Debug] [2023-10-25 19:58:37] The value of Progress is 85
+[Debug] [2023-10-25 19:58:37] The value of Progress is 90
+[Debug] [2023-10-25 19:58:38] The value of Progress is 95
+[Debug] [2023-10-25 19:58:38] The value of Progress is 100
+[Debug] [2023-10-25 19:58:38] COMMAND[Program] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-25 19:58:38] End to send programming cmd.
+[Debug] [2023-10-25 19:59:03] Begin to send scan outer flash cmd...
+[Debug] [2023-10-25 19:59:03] Send RPC:5
+[Debug] [2023-10-25 19:59:03] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-25 19:59:03] End to send scan outer flash cmd.
+[Debug] [2023-10-25 19:59:04] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-25 19:59:04] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-25 19:59:04] Begin to update graphic item and tree item ...
+[Debug] [2023-10-25 19:59:04] End to update graphic item and tree item ...
+[Debug] [2023-10-25 19:59:06] selected file name is empty and ignore.
+[Debug] [2023-10-25 19:59:06] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-25 19:59:06] end to exec scan jtag flash cmd...
+[Debug] [2023-10-25 19:59:06] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.8 secs.
+[Debug] [2023-10-25 19:59:10] Begin to Converte file.
+[Debug] [2023-10-25 20:00:22] begin to parse sfc file.
+[Debug] [2023-10-25 20:00:22] begin to get device info from CFG file...
+[Debug] [2023-10-25 20:00:22] end to get device info from CFG file...
+[Debug] [2023-10-25 20:00:22] begin to get device info from CFG file...
+[Debug] [2023-10-25 20:00:22] end to get device info from CFG file...
+[Debug] [2023-10-25 20:00:22] end to parse sfc file.
+[Debug] [2023-10-25 20:00:23] End to Converte file.
+[Debug] [2023-10-25 20:00:27] Begin to assign configuration file...
+[Info] [2023-10-25 20:00:29] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-25 20:00:29] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-25 20:00:29] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-25 20:00:29] Begin to update graphic item and tree item ...
+[Debug] [2023-10-25 20:00:29] End to update graphic item and tree item ...
+[Debug] [2023-10-25 20:00:29] End to assign configuration file...
+[Debug] [2023-10-25 20:00:33] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-25 20:00:33] begin to send jtag flash erase cmd
+[Debug] [2023-10-25 20:00:33] Send RPC:6
+[Debug] [2023-10-25 20:00:33] Begin to send embed flash erase data.
+[Debug] [2023-10-25 20:00:33] Begin to send flash erase data.
+[Debug] [2023-10-25 20:00:33] End to send flash erase data.
+[Debug] [2023-10-25 20:00:33] End to send embed flash erase data.
+[Debug] [2023-10-25 20:00:33] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-25 20:00:33] The value of Progress is 1
+[Debug] [2023-10-25 20:00:34] The value of Progress is 6
+[Debug] [2023-10-25 20:00:35] The value of Progress is 12
+[Debug] [2023-10-25 20:00:35] The value of Progress is 15
+[Debug] [2023-10-25 20:00:36] The value of Progress is 21
+[Debug] [2023-10-25 20:00:37] The value of Progress is 27
+[Debug] [2023-10-25 20:00:37] The value of Progress is 30
+[Debug] [2023-10-25 20:00:38] The value of Progress is 36
+[Debug] [2023-10-25 20:00:39] The value of Progress is 42
+[Debug] [2023-10-25 20:00:39] The value of Progress is 45
+[Debug] [2023-10-25 20:00:40] The value of Progress is 51
+[Debug] [2023-10-25 20:00:41] The value of Progress is 57
+[Debug] [2023-10-25 20:00:41] The value of Progress is 60
+[Debug] [2023-10-25 20:00:42] The value of Progress is 66
+[Debug] [2023-10-25 20:00:43] The value of Progress is 72
+[Debug] [2023-10-25 20:00:43] The value of Progress is 75
+[Debug] [2023-10-25 20:00:44] The value of Progress is 81
+[Debug] [2023-10-25 20:00:44] The value of Progress is 87
+[Debug] [2023-10-25 20:00:45] The value of Progress is 90
+[Debug] [2023-10-25 20:00:45] The value of Progress is 96
+[Debug] [2023-10-25 20:00:45] The value of Progress is 100
+[Debug] [2023-10-25 20:00:46] COMMAND[Erase Outer Flash] execute finish, takes 13.2 secs.
+[Debug] [2023-10-25 20:00:46] end to send jtag flash erase cmd.
+[Debug] [2023-10-25 20:00:46] Send RPC:7
+[Debug] [2023-10-25 20:00:46] Begin to send jtag flash program data.
+[Debug] [2023-10-25 20:00:46] Begin to send flash program data.
+[Debug] [2023-10-25 20:00:46] End to send flash program data.
+[Debug] [2023-10-25 20:00:46] End to send embed flash program data.
+[Debug] [2023-10-25 20:00:46] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-25 20:00:48] The value of Progress is 1
+[Debug] [2023-10-25 20:00:50] The value of Progress is 6
+[Debug] [2023-10-25 20:00:51] The value of Progress is 10
+[Debug] [2023-10-25 20:00:53] The value of Progress is 15
+[Debug] [2023-10-25 20:00:55] The value of Progress is 20
+[Debug] [2023-10-25 20:00:56] The value of Progress is 25
+[Debug] [2023-10-25 20:00:58] The value of Progress is 30
+[Debug] [2023-10-25 20:01:00] The value of Progress is 35
+[Debug] [2023-10-25 20:01:01] The value of Progress is 40
+[Debug] [2023-10-25 20:01:03] The value of Progress is 45
+[Debug] [2023-10-25 20:01:05] The value of Progress is 50
+[Debug] [2023-10-25 20:01:06] The value of Progress is 55
+[Debug] [2023-10-25 20:01:08] The value of Progress is 60
+[Debug] [2023-10-25 20:01:10] The value of Progress is 65
+[Debug] [2023-10-25 20:01:11] The value of Progress is 70
+[Debug] [2023-10-25 20:01:13] The value of Progress is 75
+[Debug] [2023-10-25 20:01:14] The value of Progress is 80
+[Debug] [2023-10-25 20:01:16] The value of Progress is 85
+[Debug] [2023-10-25 20:01:18] The value of Progress is 90
+[Debug] [2023-10-25 20:01:19] The value of Progress is 95
+[Debug] [2023-10-25 20:01:21] The value of Progress is 100
+[Debug] [2023-10-25 20:01:21] COMMAND[Program Outer Flash] execute finish, takes 35.6 secs.
+[Debug] [2023-10-25 20:01:21] begin to send jtag flash verify cmd
+[Debug] [2023-10-25 20:01:21] Send RPC:8
+[Debug] [2023-10-25 20:01:21] Begin to send embed flash verify data.
+[Debug] [2023-10-25 20:01:21] Begin to send flash verify data.
+[Debug] [2023-10-25 20:01:21] End to send flash verify data.
+[Debug] [2023-10-25 20:01:21] End to send embed flash verify data.
+[Debug] [2023-10-25 20:01:21] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-25 20:01:22] The value of Progress is 1
+[Debug] [2023-10-25 20:01:22] The value of Progress is 6
+[Debug] [2023-10-25 20:01:22] The value of Progress is 10
+[Debug] [2023-10-25 20:01:22] The value of Progress is 15
+[Debug] [2023-10-25 20:01:22] The value of Progress is 20
+[Debug] [2023-10-25 20:01:22] The value of Progress is 25
+[Debug] [2023-10-25 20:01:22] The value of Progress is 30
+[Debug] [2023-10-25 20:01:22] The value of Progress is 35
+[Debug] [2023-10-25 20:01:23] The value of Progress is 40
+[Debug] [2023-10-25 20:01:23] The value of Progress is 45
+[Debug] [2023-10-25 20:01:23] The value of Progress is 50
+[Debug] [2023-10-25 20:01:23] The value of Progress is 55
+[Debug] [2023-10-25 20:01:23] The value of Progress is 60
+[Debug] [2023-10-25 20:01:23] The value of Progress is 65
+[Debug] [2023-10-25 20:01:23] The value of Progress is 70
+[Debug] [2023-10-25 20:01:23] The value of Progress is 75
+[Debug] [2023-10-25 20:01:23] The value of Progress is 80
+[Debug] [2023-10-25 20:01:24] The value of Progress is 85
+[Debug] [2023-10-25 20:01:24] The value of Progress is 90
+[Debug] [2023-10-25 20:01:24] The value of Progress is 95
+[Debug] [2023-10-25 20:01:24] The value of Progress is 100
+[Debug] [2023-10-25 20:01:24] COMMAND[Verify Outer Flash] execute successfully, takes 2.7 secs.
+[Debug] [2023-10-25 20:01:24] end to send jtag flash verify cmd
+[Debug] [2023-10-25 20:01:24] end to send jtag flash program cmd.
+[Info] [2023-10-25 20:01:44] /***************************End Configration***************************/
+[Info] [2023-10-27 00:23:30] /***************************Start Configuration***************************/
+[Info] [2023-10-27 00:23:30] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-27 00:23:30] Version: 99559
+[Info] [2023-10-27 00:23:31] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 00:23:31] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 00:24:52] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-27 00:24:52] Client Local host name:GGB
+[Debug] [2023-10-27 00:24:52] Client Local Address:10.133.253.224
+[Debug] [2023-10-27 00:24:52] Client Local Address:192.168.137.1
+[Debug] [2023-10-27 00:24:52] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-27 00:24:54] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-27 00:24:54] Finish.
+[Info] [2023-10-27 00:24:54] Connect server succeeded
+[Debug] [2023-10-27 00:24:54] Send RPC:1
+[Debug] [2023-10-27 00:24:54] Send cmd [check version information:40005] OK
+[Debug] [2023-10-27 00:24:54] Send RPC:2
+[Debug] [2023-10-27 00:24:54] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-27 00:24:54] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 00:24:54] Send RPC:3
+[Debug] [2023-10-27 00:24:54] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 00:24:54] End to send initialize chain cmd.
+[Debug] [2023-10-27 00:24:54] COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2023-10-27 00:24:55] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Error] [2023-10-27 00:24:55] fail to exec Open config cable cmd...
+[Debug] [2023-10-27 00:25:03] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 00:25:03] Send RPC:4
+[Debug] [2023-10-27 00:25:03] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 00:25:03] End to send initialize chain cmd.
+[Error] [2023-10-27 00:25:03] fail to exec Open config cable cmd...
+[Debug] [2023-10-27 00:25:10] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 00:25:10] Send RPC:5
+[Debug] [2023-10-27 00:25:10] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 00:25:10] End to send initialize chain cmd.
+[Error] [2023-10-27 00:25:10] fail to exec Open config cable cmd...
+[Info] [2023-10-27 00:25:22] /***************************End Configration***************************/
+[Info] [2023-10-27 00:25:54] /***************************Start Configuration***************************/
+[Info] [2023-10-27 00:25:54] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-27 00:25:54] Version: 99559
+[Info] [2023-10-27 00:25:55] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 00:25:55] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 00:25:58] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-27 00:25:58] Client Local host name:GGB
+[Debug] [2023-10-27 00:25:58] Client Local Address:10.133.253.224
+[Debug] [2023-10-27 00:25:58] Client Local Address:192.168.137.1
+[Debug] [2023-10-27 00:25:58] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-27 00:25:58] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-27 00:25:58] Finish.
+[Info] [2023-10-27 00:25:58] Connect server succeeded
+[Debug] [2023-10-27 00:25:58] Send RPC:1
+[Debug] [2023-10-27 00:25:58] Send cmd [check version information:40005] OK
+[Debug] [2023-10-27 00:26:00] Send RPC:2
+[Debug] [2023-10-27 00:26:00] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-27 00:26:00] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 00:26:00] Send RPC:3
+[Debug] [2023-10-27 00:26:00] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 00:26:00] End to send initialize chain cmd.
+[Debug] [2023-10-27 00:26:00] COMMAND[check version information] execute successfully, takes 1.7 secs.
+[Debug] [2023-10-27 00:26:02] COMMAND[get_cable_paras] execute successfully, takes 2.0 secs.
+[Debug] [2023-10-27 00:26:03] begin the exec of open cable cmd...
+[Debug] [2023-10-27 00:26:03] Begin to deal with chain from server...
+[Debug] [2023-10-27 00:26:03] Begin to set user chain...
+[Debug] [2023-10-27 00:26:03] End to set user chain.
+[Debug] [2023-10-27 00:26:03] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 00:26:03] End to update graphic item and tree item ...
+[Info] [2023-10-27 00:26:07] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-27 00:26:07] begin to get device info from CFG file...
+[Debug] [2023-10-27 00:26:07] end to get device info from CFG file...
+[Debug] [2023-10-27 00:26:07] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 00:26:07] End to update graphic item and tree item ...
+[Debug] [2023-10-27 00:26:07] End to deal wiht chain from server.
+[Debug] [2023-10-27 00:26:07] end the exec of open cable cmd.
+[Debug] [2023-10-27 00:26:07] COMMAND[Open config cable] execute successfully, takes 7.0 secs.
+[Debug] [2023-10-27 00:26:12] Begin to send scan outer flash cmd...
+[Debug] [2023-10-27 00:26:12] Send RPC:4
+[Debug] [2023-10-27 00:26:12] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-27 00:26:12] End to send scan outer flash cmd.
+[Debug] [2023-10-27 00:26:13] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-27 00:26:13] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-27 00:26:13] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 00:26:13] End to update graphic item and tree item ...
+[Debug] [2023-10-27 00:26:16] selected file name is empty and ignore.
+[Debug] [2023-10-27 00:26:16] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-27 00:26:16] end to exec scan jtag flash cmd...
+[Debug] [2023-10-27 00:26:16] COMMAND[Scan Outer SPI Flash] execute successfully, takes 3.1 secs.
+[Debug] [2023-10-27 00:26:19] Begin to Converte file.
+[Debug] [2023-10-27 00:27:33] End to Converte file.
+[Debug] [2023-10-27 00:29:00] Begin to Converte file.
+[Debug] [2023-10-27 00:29:00] End to Converte file.
+[Debug] [2023-10-27 00:29:16] begin to parse sfc file.
+[Debug] [2023-10-27 00:29:16] begin to get device info from CFG file...
+[Debug] [2023-10-27 00:29:16] end to get device info from CFG file...
+[Debug] [2023-10-27 00:29:16] begin to get device info from CFG file...
+[Debug] [2023-10-27 00:29:16] end to get device info from CFG file...
+[Debug] [2023-10-27 00:29:16] end to parse sfc file.
+[Debug] [2023-10-27 00:29:20] Begin to assign configuration file...
+[Info] [2023-10-27 00:29:21] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-27 00:29:21] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 00:29:21] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 00:29:21] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 00:29:21] End to update graphic item and tree item ...
+[Debug] [2023-10-27 00:29:21] End to assign configuration file...
+[Debug] [2023-10-27 00:29:26] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 00:29:26] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 00:29:26] Send RPC:5
+[Debug] [2023-10-27 00:29:26] Begin to send embed flash erase data.
+[Debug] [2023-10-27 00:29:26] Begin to send flash erase data.
+[Debug] [2023-10-27 00:29:26] End to send flash erase data.
+[Debug] [2023-10-27 00:29:26] End to send embed flash erase data.
+[Debug] [2023-10-27 00:29:26] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 00:29:26] The value of Progress is 1
+[Debug] [2023-10-27 00:29:27] The value of Progress is 6
+[Debug] [2023-10-27 00:29:28] The value of Progress is 12
+[Debug] [2023-10-27 00:29:29] The value of Progress is 15
+[Debug] [2023-10-27 00:29:29] The value of Progress is 21
+[Debug] [2023-10-27 00:29:30] The value of Progress is 27
+[Debug] [2023-10-27 00:29:31] The value of Progress is 30
+[Debug] [2023-10-27 00:29:31] The value of Progress is 36
+[Debug] [2023-10-27 00:29:32] The value of Progress is 42
+[Debug] [2023-10-27 00:29:33] The value of Progress is 45
+[Debug] [2023-10-27 00:29:33] The value of Progress is 51
+[Debug] [2023-10-27 00:29:34] The value of Progress is 57
+[Debug] [2023-10-27 00:29:34] The value of Progress is 60
+[Debug] [2023-10-27 00:29:35] The value of Progress is 66
+[Debug] [2023-10-27 00:29:36] The value of Progress is 72
+[Debug] [2023-10-27 00:29:36] The value of Progress is 75
+[Debug] [2023-10-27 00:29:37] The value of Progress is 81
+[Debug] [2023-10-27 00:29:38] The value of Progress is 87
+[Debug] [2023-10-27 00:29:38] The value of Progress is 90
+[Debug] [2023-10-27 00:29:39] The value of Progress is 96
+[Debug] [2023-10-27 00:29:39] The value of Progress is 100
+[Debug] [2023-10-27 00:29:39] COMMAND[Erase Outer Flash] execute finish, takes 13.3 secs.
+[Debug] [2023-10-27 00:29:39] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 00:29:39] Send RPC:6
+[Debug] [2023-10-27 00:29:39] Begin to send jtag flash program data.
+[Debug] [2023-10-27 00:29:39] Begin to send flash program data.
+[Debug] [2023-10-27 00:29:39] End to send flash program data.
+[Debug] [2023-10-27 00:29:39] End to send embed flash program data.
+[Debug] [2023-10-27 00:29:39] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 00:29:42] The value of Progress is 1
+[Debug] [2023-10-27 00:29:44] The value of Progress is 6
+[Debug] [2023-10-27 00:29:45] The value of Progress is 10
+[Debug] [2023-10-27 00:29:47] The value of Progress is 15
+[Debug] [2023-10-27 00:29:48] The value of Progress is 20
+[Debug] [2023-10-27 00:29:50] The value of Progress is 25
+[Debug] [2023-10-27 00:29:51] The value of Progress is 30
+[Debug] [2023-10-27 00:29:53] The value of Progress is 35
+[Debug] [2023-10-27 00:29:55] The value of Progress is 40
+[Debug] [2023-10-27 00:29:56] The value of Progress is 45
+[Debug] [2023-10-27 00:29:58] The value of Progress is 50
+[Debug] [2023-10-27 00:30:00] The value of Progress is 55
+[Debug] [2023-10-27 00:30:01] The value of Progress is 60
+[Debug] [2023-10-27 00:30:03] The value of Progress is 65
+[Debug] [2023-10-27 00:30:05] The value of Progress is 70
+[Debug] [2023-10-27 00:30:06] The value of Progress is 75
+[Debug] [2023-10-27 00:30:08] The value of Progress is 80
+[Debug] [2023-10-27 00:30:10] The value of Progress is 85
+[Debug] [2023-10-27 00:30:11] The value of Progress is 90
+[Debug] [2023-10-27 00:30:13] The value of Progress is 95
+[Debug] [2023-10-27 00:30:14] The value of Progress is 100
+[Debug] [2023-10-27 00:30:15] COMMAND[Program Outer Flash] execute finish, takes 35.5 secs.
+[Debug] [2023-10-27 00:30:15] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 00:30:15] Send RPC:7
+[Debug] [2023-10-27 00:30:15] Begin to send embed flash verify data.
+[Debug] [2023-10-27 00:30:15] Begin to send flash verify data.
+[Debug] [2023-10-27 00:30:15] End to send flash verify data.
+[Debug] [2023-10-27 00:30:15] End to send embed flash verify data.
+[Debug] [2023-10-27 00:30:15] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 00:30:15] The value of Progress is 1
+[Debug] [2023-10-27 00:30:15] The value of Progress is 6
+[Debug] [2023-10-27 00:30:15] The value of Progress is 10
+[Debug] [2023-10-27 00:30:15] The value of Progress is 15
+[Debug] [2023-10-27 00:30:15] The value of Progress is 20
+[Debug] [2023-10-27 00:30:16] The value of Progress is 25
+[Debug] [2023-10-27 00:30:16] The value of Progress is 30
+[Debug] [2023-10-27 00:30:16] The value of Progress is 35
+[Debug] [2023-10-27 00:30:16] The value of Progress is 40
+[Debug] [2023-10-27 00:30:16] The value of Progress is 45
+[Debug] [2023-10-27 00:30:16] The value of Progress is 50
+[Debug] [2023-10-27 00:30:16] The value of Progress is 55
+[Debug] [2023-10-27 00:30:16] The value of Progress is 60
+[Debug] [2023-10-27 00:30:16] The value of Progress is 65
+[Debug] [2023-10-27 00:30:17] The value of Progress is 70
+[Debug] [2023-10-27 00:30:17] The value of Progress is 75
+[Debug] [2023-10-27 00:30:17] The value of Progress is 80
+[Debug] [2023-10-27 00:30:17] The value of Progress is 85
+[Debug] [2023-10-27 00:30:17] The value of Progress is 90
+[Debug] [2023-10-27 00:30:17] The value of Progress is 95
+[Debug] [2023-10-27 00:30:17] The value of Progress is 100
+[Debug] [2023-10-27 00:30:17] COMMAND[Verify Outer Flash] execute successfully, takes 2.8 secs.
+[Debug] [2023-10-27 00:30:17] end to send jtag flash verify cmd
+[Debug] [2023-10-27 00:30:17] end to send jtag flash program cmd.
+[Info] [2023-10-27 00:31:02] /***************************End Configration***************************/
+[Info] [2023-10-27 13:51:39] /***************************Start Configuration***************************/
+[Info] [2023-10-27 13:51:39] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-27 13:51:39] Version: 99559
+[Info] [2023-10-27 13:51:40] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 13:51:40] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 13:52:01] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-27 13:52:01] Client Local host name:GGB
+[Debug] [2023-10-27 13:52:01] Client Local Address:10.133.253.224
+[Debug] [2023-10-27 13:52:01] Client Local Address:192.168.137.1
+[Debug] [2023-10-27 13:52:01] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-27 13:52:02] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-27 13:52:02] Finish.
+[Info] [2023-10-27 13:52:02] Connect server succeeded
+[Debug] [2023-10-27 13:52:02] Send RPC:1
+[Debug] [2023-10-27 13:52:02] Send cmd [check version information:40005] OK
+[Debug] [2023-10-27 13:52:03] Send RPC:2
+[Debug] [2023-10-27 13:52:03] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-27 13:52:03] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 13:52:03] Send RPC:3
+[Debug] [2023-10-27 13:52:03] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 13:52:03] End to send initialize chain cmd.
+[Debug] [2023-10-27 13:52:03] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2023-10-27 13:52:04] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2023-10-27 13:52:04] begin the exec of open cable cmd...
+[Debug] [2023-10-27 13:52:04] Begin to deal with chain from server...
+[Debug] [2023-10-27 13:52:04] Begin to set user chain...
+[Debug] [2023-10-27 13:52:04] End to set user chain.
+[Debug] [2023-10-27 13:52:04] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:04] End to update graphic item and tree item ...
+[Info] [2023-10-27 13:52:09] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-27 13:52:09] begin to get device info from CFG file...
+[Debug] [2023-10-27 13:52:09] end to get device info from CFG file...
+[Debug] [2023-10-27 13:52:09] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:09] End to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:09] End to deal wiht chain from server.
+[Debug] [2023-10-27 13:52:09] end the exec of open cable cmd.
+[Debug] [2023-10-27 13:52:09] COMMAND[Open config cable] execute successfully, takes 6.4 secs.
+[Debug] [2023-10-27 13:52:12] Begin to send scan outer flash cmd...
+[Debug] [2023-10-27 13:52:12] Send RPC:4
+[Debug] [2023-10-27 13:52:12] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-27 13:52:12] End to send scan outer flash cmd.
+[Debug] [2023-10-27 13:52:12] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-27 13:52:12] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-27 13:52:12] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:12] End to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:15] selected file name is empty and ignore.
+[Debug] [2023-10-27 13:52:15] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-27 13:52:15] end to exec scan jtag flash cmd...
+[Debug] [2023-10-27 13:52:15] COMMAND[Scan Outer SPI Flash] execute successfully, takes 3.0 secs.
+[Debug] [2023-10-27 13:52:16] Begin to Converte file.
+[Debug] [2023-10-27 13:52:26] begin to parse sfc file.
+[Debug] [2023-10-27 13:52:26] begin to get device info from CFG file...
+[Debug] [2023-10-27 13:52:26] end to get device info from CFG file...
+[Debug] [2023-10-27 13:52:26] begin to get device info from CFG file...
+[Debug] [2023-10-27 13:52:26] end to get device info from CFG file...
+[Debug] [2023-10-27 13:52:26] end to parse sfc file.
+[Debug] [2023-10-27 13:52:27] End to Converte file.
+[Debug] [2023-10-27 13:52:29] Begin to assign configuration file...
+[Info] [2023-10-27 13:52:31] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-27 13:52:31] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 13:52:31] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 13:52:31] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:31] End to update graphic item and tree item ...
+[Debug] [2023-10-27 13:52:31] End to assign configuration file...
+[Debug] [2023-10-27 13:52:36] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 13:52:36] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 13:52:36] Send RPC:5
+[Debug] [2023-10-27 13:52:36] Begin to send embed flash erase data.
+[Debug] [2023-10-27 13:52:36] Begin to send flash erase data.
+[Debug] [2023-10-27 13:52:36] End to send flash erase data.
+[Debug] [2023-10-27 13:52:36] End to send embed flash erase data.
+[Debug] [2023-10-27 13:52:36] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 13:52:36] The value of Progress is 1
+[Debug] [2023-10-27 13:52:37] The value of Progress is 6
+[Debug] [2023-10-27 13:52:38] The value of Progress is 12
+[Debug] [2023-10-27 13:52:38] The value of Progress is 15
+[Debug] [2023-10-27 13:52:39] The value of Progress is 21
+[Debug] [2023-10-27 13:52:40] The value of Progress is 27
+[Debug] [2023-10-27 13:52:40] The value of Progress is 30
+[Debug] [2023-10-27 13:52:41] The value of Progress is 36
+[Debug] [2023-10-27 13:52:42] The value of Progress is 42
+[Debug] [2023-10-27 13:52:42] The value of Progress is 45
+[Debug] [2023-10-27 13:52:43] The value of Progress is 51
+[Debug] [2023-10-27 13:52:44] The value of Progress is 57
+[Debug] [2023-10-27 13:52:44] The value of Progress is 60
+[Debug] [2023-10-27 13:52:45] The value of Progress is 66
+[Debug] [2023-10-27 13:52:45] The value of Progress is 72
+[Debug] [2023-10-27 13:52:46] The value of Progress is 75
+[Debug] [2023-10-27 13:52:47] The value of Progress is 81
+[Debug] [2023-10-27 13:52:47] The value of Progress is 87
+[Debug] [2023-10-27 13:52:48] The value of Progress is 90
+[Debug] [2023-10-27 13:52:48] The value of Progress is 96
+[Debug] [2023-10-27 13:52:48] The value of Progress is 100
+[Debug] [2023-10-27 13:52:49] COMMAND[Erase Outer Flash] execute finish, takes 12.9 secs.
+[Debug] [2023-10-27 13:52:49] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 13:52:49] Send RPC:6
+[Debug] [2023-10-27 13:52:49] Begin to send jtag flash program data.
+[Debug] [2023-10-27 13:52:49] Begin to send flash program data.
+[Debug] [2023-10-27 13:52:49] End to send flash program data.
+[Debug] [2023-10-27 13:52:49] End to send embed flash program data.
+[Debug] [2023-10-27 13:52:49] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 13:52:51] The value of Progress is 1
+[Debug] [2023-10-27 13:52:53] The value of Progress is 6
+[Debug] [2023-10-27 13:52:54] The value of Progress is 10
+[Debug] [2023-10-27 13:52:56] The value of Progress is 15
+[Debug] [2023-10-27 13:52:57] The value of Progress is 20
+[Debug] [2023-10-27 13:52:59] The value of Progress is 25
+[Debug] [2023-10-27 13:53:01] The value of Progress is 30
+[Debug] [2023-10-27 13:53:02] The value of Progress is 35
+[Debug] [2023-10-27 13:53:04] The value of Progress is 40
+[Debug] [2023-10-27 13:53:06] The value of Progress is 45
+[Debug] [2023-10-27 13:53:07] The value of Progress is 50
+[Debug] [2023-10-27 13:53:09] The value of Progress is 55
+[Debug] [2023-10-27 13:53:11] The value of Progress is 60
+[Debug] [2023-10-27 13:53:12] The value of Progress is 65
+[Debug] [2023-10-27 13:53:14] The value of Progress is 70
+[Debug] [2023-10-27 13:53:16] The value of Progress is 75
+[Debug] [2023-10-27 13:53:17] The value of Progress is 80
+[Debug] [2023-10-27 13:53:19] The value of Progress is 85
+[Debug] [2023-10-27 13:53:20] The value of Progress is 90
+[Debug] [2023-10-27 13:53:22] The value of Progress is 95
+[Debug] [2023-10-27 13:53:24] The value of Progress is 100
+[Debug] [2023-10-27 13:53:24] COMMAND[Program Outer Flash] execute finish, takes 35.2 secs.
+[Debug] [2023-10-27 13:53:24] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 13:53:24] Send RPC:7
+[Debug] [2023-10-27 13:53:24] Begin to send embed flash verify data.
+[Debug] [2023-10-27 13:53:24] Begin to send flash verify data.
+[Debug] [2023-10-27 13:53:24] End to send flash verify data.
+[Debug] [2023-10-27 13:53:24] End to send embed flash verify data.
+[Debug] [2023-10-27 13:53:24] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 13:53:24] The value of Progress is 1
+[Debug] [2023-10-27 13:53:24] The value of Progress is 6
+[Debug] [2023-10-27 13:53:24] The value of Progress is 10
+[Debug] [2023-10-27 13:53:24] The value of Progress is 15
+[Debug] [2023-10-27 13:53:25] The value of Progress is 20
+[Debug] [2023-10-27 13:53:25] The value of Progress is 25
+[Debug] [2023-10-27 13:53:25] The value of Progress is 30
+[Debug] [2023-10-27 13:53:25] The value of Progress is 35
+[Debug] [2023-10-27 13:53:25] The value of Progress is 40
+[Debug] [2023-10-27 13:53:25] The value of Progress is 45
+[Debug] [2023-10-27 13:53:25] The value of Progress is 50
+[Debug] [2023-10-27 13:53:25] The value of Progress is 55
+[Debug] [2023-10-27 13:53:25] The value of Progress is 60
+[Debug] [2023-10-27 13:53:25] The value of Progress is 65
+[Debug] [2023-10-27 13:53:26] The value of Progress is 70
+[Debug] [2023-10-27 13:53:26] The value of Progress is 75
+[Debug] [2023-10-27 13:53:26] The value of Progress is 80
+[Debug] [2023-10-27 13:53:26] The value of Progress is 85
+[Debug] [2023-10-27 13:53:26] The value of Progress is 90
+[Debug] [2023-10-27 13:53:26] The value of Progress is 95
+[Debug] [2023-10-27 13:53:26] The value of Progress is 100
+[Debug] [2023-10-27 13:53:26] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 13:53:26] end to send jtag flash verify cmd
+[Debug] [2023-10-27 13:53:26] end to send jtag flash program cmd.
+[Info] [2023-10-27 13:57:05] /***************************End Configration***************************/
+[Info] [2023-10-27 15:27:19] /***************************Start Configuration***************************/
+[Info] [2023-10-27 15:27:19] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-27 15:27:19] Version: 99559
+[Info] [2023-10-27 15:27:20] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 15:27:20] PDS Dir Path: E:/PangoPro/tinyriscv
+[Debug] [2023-10-27 15:27:26] Begin to Converte file.
+[Debug] [2023-10-27 15:27:35] begin to parse sfc file.
+[Debug] [2023-10-27 15:27:35] begin to get device info from CFG file...
+[Debug] [2023-10-27 15:27:35] end to get device info from CFG file...
+[Debug] [2023-10-27 15:27:35] begin to get device info from CFG file...
+[Debug] [2023-10-27 15:27:35] end to get device info from CFG file...
+[Debug] [2023-10-27 15:27:35] end to parse sfc file.
+[Debug] [2023-10-27 15:27:36] End to Converte file.
+[Info] [2023-10-27 15:27:40] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-27 15:27:40] Client Local host name:GGB
+[Debug] [2023-10-27 15:27:40] Client Local Address:10.133.253.224
+[Debug] [2023-10-27 15:27:40] Client Local Address:192.168.137.1
+[Debug] [2023-10-27 15:27:40] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-27 15:27:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-27 15:27:41] Finish.
+[Info] [2023-10-27 15:27:41] Connect server succeeded
+[Debug] [2023-10-27 15:27:41] Send RPC:1
+[Debug] [2023-10-27 15:27:41] Send cmd [check version information:40005] OK
+[Debug] [2023-10-27 15:27:41] Send RPC:2
+[Debug] [2023-10-27 15:27:41] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-27 15:27:41] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 15:27:41] Send RPC:3
+[Debug] [2023-10-27 15:27:41] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 15:27:41] End to send initialize chain cmd.
+[Debug] [2023-10-27 15:27:41] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2023-10-27 15:27:42] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2023-10-27 15:27:42] begin the exec of open cable cmd...
+[Debug] [2023-10-27 15:27:42] Begin to deal with chain from server...
+[Debug] [2023-10-27 15:27:42] Begin to set user chain...
+[Debug] [2023-10-27 15:27:42] End to set user chain.
+[Debug] [2023-10-27 15:27:42] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 15:27:42] End to update graphic item and tree item ...
+[Info] [2023-10-27 15:27:44] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-27 15:27:44] begin to get device info from CFG file...
+[Debug] [2023-10-27 15:27:44] end to get device info from CFG file...
+[Debug] [2023-10-27 15:27:44] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 15:27:44] End to update graphic item and tree item ...
+[Debug] [2023-10-27 15:27:44] End to deal wiht chain from server.
+[Debug] [2023-10-27 15:27:44] end the exec of open cable cmd.
+[Debug] [2023-10-27 15:27:44] COMMAND[Open config cable] execute successfully, takes 3.6 secs.
+[Debug] [2023-10-27 15:27:47] Begin to send scan outer flash cmd...
+[Debug] [2023-10-27 15:27:47] Send RPC:4
+[Debug] [2023-10-27 15:27:47] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-27 15:27:47] End to send scan outer flash cmd.
+[Debug] [2023-10-27 15:27:47] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-27 15:27:47] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-27 15:27:47] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 15:27:47] End to update graphic item and tree item ...
+[Info] [2023-10-27 15:27:50] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-27 15:27:50] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 15:27:50] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 15:27:50] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 15:27:50] End to update graphic item and tree item ...
+[Debug] [2023-10-27 15:27:50] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-27 15:27:50] end to exec scan jtag flash cmd...
+[Debug] [2023-10-27 15:27:50] COMMAND[Scan Outer SPI Flash] execute successfully, takes 3.1 secs.
+[Debug] [2023-10-27 15:27:52] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 15:27:52] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 15:27:52] Send RPC:5
+[Debug] [2023-10-27 15:27:52] Begin to send embed flash erase data.
+[Debug] [2023-10-27 15:27:52] Begin to send flash erase data.
+[Debug] [2023-10-27 15:27:52] End to send flash erase data.
+[Debug] [2023-10-27 15:27:52] End to send embed flash erase data.
+[Debug] [2023-10-27 15:27:52] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 15:27:53] The value of Progress is 1
+[Debug] [2023-10-27 15:27:54] The value of Progress is 6
+[Debug] [2023-10-27 15:27:55] The value of Progress is 12
+[Debug] [2023-10-27 15:27:55] The value of Progress is 15
+[Debug] [2023-10-27 15:27:56] The value of Progress is 21
+[Debug] [2023-10-27 15:27:57] The value of Progress is 27
+[Debug] [2023-10-27 15:27:57] The value of Progress is 30
+[Debug] [2023-10-27 15:27:58] The value of Progress is 36
+[Debug] [2023-10-27 15:27:59] The value of Progress is 42
+[Debug] [2023-10-27 15:27:59] The value of Progress is 45
+[Debug] [2023-10-27 15:28:00] The value of Progress is 51
+[Debug] [2023-10-27 15:28:01] The value of Progress is 57
+[Debug] [2023-10-27 15:28:01] The value of Progress is 60
+[Debug] [2023-10-27 15:28:02] The value of Progress is 66
+[Debug] [2023-10-27 15:28:02] The value of Progress is 72
+[Debug] [2023-10-27 15:28:03] The value of Progress is 75
+[Debug] [2023-10-27 15:28:04] The value of Progress is 81
+[Debug] [2023-10-27 15:28:05] The value of Progress is 87
+[Debug] [2023-10-27 15:28:05] The value of Progress is 90
+[Debug] [2023-10-27 15:28:06] The value of Progress is 96
+[Debug] [2023-10-27 15:28:06] The value of Progress is 100
+[Debug] [2023-10-27 15:28:06] COMMAND[Erase Outer Flash] execute finish, takes 13.6 secs.
+[Debug] [2023-10-27 15:28:06] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 15:28:06] Send RPC:6
+[Debug] [2023-10-27 15:28:06] Begin to send jtag flash program data.
+[Debug] [2023-10-27 15:28:06] Begin to send flash program data.
+[Debug] [2023-10-27 15:28:06] End to send flash program data.
+[Debug] [2023-10-27 15:28:06] End to send embed flash program data.
+[Debug] [2023-10-27 15:28:06] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 15:28:08] The value of Progress is 1
+[Debug] [2023-10-27 15:28:10] The value of Progress is 6
+[Debug] [2023-10-27 15:28:11] The value of Progress is 10
+[Debug] [2023-10-27 15:28:13] The value of Progress is 15
+[Debug] [2023-10-27 15:28:15] The value of Progress is 20
+[Debug] [2023-10-27 15:28:16] The value of Progress is 25
+[Debug] [2023-10-27 15:28:18] The value of Progress is 30
+[Debug] [2023-10-27 15:28:20] The value of Progress is 35
+[Debug] [2023-10-27 15:28:21] The value of Progress is 40
+[Debug] [2023-10-27 15:28:23] The value of Progress is 45
+[Debug] [2023-10-27 15:28:25] The value of Progress is 50
+[Debug] [2023-10-27 15:28:26] The value of Progress is 55
+[Debug] [2023-10-27 15:28:28] The value of Progress is 60
+[Debug] [2023-10-27 15:28:29] The value of Progress is 65
+[Debug] [2023-10-27 15:28:31] The value of Progress is 70
+[Debug] [2023-10-27 15:28:33] The value of Progress is 75
+[Debug] [2023-10-27 15:28:34] The value of Progress is 80
+[Debug] [2023-10-27 15:28:36] The value of Progress is 85
+[Debug] [2023-10-27 15:28:38] The value of Progress is 90
+[Debug] [2023-10-27 15:28:39] The value of Progress is 95
+[Debug] [2023-10-27 15:28:41] The value of Progress is 100
+[Debug] [2023-10-27 15:28:41] COMMAND[Program Outer Flash] execute finish, takes 35.1 secs.
+[Debug] [2023-10-27 15:28:41] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 15:28:41] Send RPC:7
+[Debug] [2023-10-27 15:28:41] Begin to send embed flash verify data.
+[Debug] [2023-10-27 15:28:41] Begin to send flash verify data.
+[Debug] [2023-10-27 15:28:41] End to send flash verify data.
+[Debug] [2023-10-27 15:28:41] End to send embed flash verify data.
+[Debug] [2023-10-27 15:28:41] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 15:28:41] The value of Progress is 1
+[Debug] [2023-10-27 15:28:41] The value of Progress is 6
+[Debug] [2023-10-27 15:28:41] The value of Progress is 10
+[Debug] [2023-10-27 15:28:42] The value of Progress is 15
+[Debug] [2023-10-27 15:28:42] The value of Progress is 20
+[Debug] [2023-10-27 15:28:42] The value of Progress is 25
+[Debug] [2023-10-27 15:28:42] The value of Progress is 30
+[Debug] [2023-10-27 15:28:42] The value of Progress is 35
+[Debug] [2023-10-27 15:28:42] The value of Progress is 40
+[Debug] [2023-10-27 15:28:42] The value of Progress is 45
+[Debug] [2023-10-27 15:28:42] The value of Progress is 50
+[Debug] [2023-10-27 15:28:42] The value of Progress is 55
+[Debug] [2023-10-27 15:28:42] The value of Progress is 60
+[Debug] [2023-10-27 15:28:43] The value of Progress is 65
+[Debug] [2023-10-27 15:28:43] The value of Progress is 70
+[Debug] [2023-10-27 15:28:43] The value of Progress is 75
+[Debug] [2023-10-27 15:28:43] The value of Progress is 80
+[Debug] [2023-10-27 15:28:43] The value of Progress is 85
+[Debug] [2023-10-27 15:28:43] The value of Progress is 90
+[Debug] [2023-10-27 15:28:43] The value of Progress is 95
+[Debug] [2023-10-27 15:28:43] The value of Progress is 100
+[Debug] [2023-10-27 15:28:44] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 15:28:44] end to send jtag flash verify cmd
+[Debug] [2023-10-27 15:28:44] end to send jtag flash program cmd.
+[Info] [2023-10-27 15:38:54] /***************************End Configration***************************/
+[Info] [2023-10-27 16:18:55] /***************************Start Configuration***************************/
+[Info] [2023-10-27 16:18:55] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-27 16:18:55] Version: 99559
+[Info] [2023-10-27 16:18:56] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 16:18:56] PDS Dir Path: E:/PangoPro/tinyriscv
+[Debug] [2023-10-27 16:19:02] Begin to Converte file.
+[Debug] [2023-10-27 16:19:12] begin to parse sfc file.
+[Debug] [2023-10-27 16:19:12] begin to get device info from CFG file...
+[Debug] [2023-10-27 16:19:12] end to get device info from CFG file...
+[Debug] [2023-10-27 16:19:12] begin to get device info from CFG file...
+[Debug] [2023-10-27 16:19:12] end to get device info from CFG file...
+[Debug] [2023-10-27 16:19:12] end to parse sfc file.
+[Debug] [2023-10-27 16:19:13] End to Converte file.
+[Info] [2023-10-27 16:19:15] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-27 16:19:15] Client Local host name:GGB
+[Debug] [2023-10-27 16:19:15] Client Local Address:10.133.253.224
+[Debug] [2023-10-27 16:19:15] Client Local Address:192.168.137.1
+[Debug] [2023-10-27 16:19:15] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-27 16:19:16] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-27 16:19:16] Finish.
+[Info] [2023-10-27 16:19:16] Connect server succeeded
+[Debug] [2023-10-27 16:19:16] Send RPC:1
+[Debug] [2023-10-27 16:19:16] Send cmd [check version information:40005] OK
+[Debug] [2023-10-27 16:19:16] Send RPC:2
+[Debug] [2023-10-27 16:19:16] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-27 16:19:16] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 16:19:16] Send RPC:3
+[Debug] [2023-10-27 16:19:16] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 16:19:16] End to send initialize chain cmd.
+[Debug] [2023-10-27 16:19:16] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-10-27 16:19:17] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2023-10-27 16:19:17] begin the exec of open cable cmd...
+[Debug] [2023-10-27 16:19:17] Begin to deal with chain from server...
+[Debug] [2023-10-27 16:19:17] Begin to set user chain...
+[Debug] [2023-10-27 16:19:17] End to set user chain.
+[Debug] [2023-10-27 16:19:17] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 16:19:17] End to update graphic item and tree item ...
+[Info] [2023-10-27 16:19:20] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-27 16:19:20] begin to get device info from CFG file...
+[Debug] [2023-10-27 16:19:20] end to get device info from CFG file...
+[Debug] [2023-10-27 16:19:20] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 16:19:20] End to update graphic item and tree item ...
+[Debug] [2023-10-27 16:19:20] End to deal wiht chain from server.
+[Debug] [2023-10-27 16:19:20] end the exec of open cable cmd.
+[Debug] [2023-10-27 16:19:20] COMMAND[Open config cable] execute successfully, takes 3.7 secs.
+[Debug] [2023-10-27 16:19:22] Begin to send scan outer flash cmd...
+[Debug] [2023-10-27 16:19:22] Send RPC:4
+[Debug] [2023-10-27 16:19:22] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-27 16:19:22] End to send scan outer flash cmd.
+[Debug] [2023-10-27 16:19:22] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-27 16:19:22] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-27 16:19:22] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 16:19:23] End to update graphic item and tree item ...
+[Info] [2023-10-27 16:19:25] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-27 16:19:25] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 16:19:25] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 16:19:25] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 16:19:25] End to update graphic item and tree item ...
+[Debug] [2023-10-27 16:19:25] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-27 16:19:25] end to exec scan jtag flash cmd...
+[Debug] [2023-10-27 16:19:25] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.8 secs.
+[Debug] [2023-10-27 16:19:27] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 16:19:27] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 16:19:27] Send RPC:5
+[Debug] [2023-10-27 16:19:27] Begin to send embed flash erase data.
+[Debug] [2023-10-27 16:19:27] Begin to send flash erase data.
+[Debug] [2023-10-27 16:19:27] End to send flash erase data.
+[Debug] [2023-10-27 16:19:27] End to send embed flash erase data.
+[Debug] [2023-10-27 16:19:27] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 16:19:28] The value of Progress is 1
+[Debug] [2023-10-27 16:19:29] The value of Progress is 6
+[Debug] [2023-10-27 16:19:29] The value of Progress is 12
+[Debug] [2023-10-27 16:19:30] The value of Progress is 15
+[Debug] [2023-10-27 16:19:31] The value of Progress is 21
+[Debug] [2023-10-27 16:19:32] The value of Progress is 27
+[Debug] [2023-10-27 16:19:32] The value of Progress is 30
+[Debug] [2023-10-27 16:19:33] The value of Progress is 36
+[Debug] [2023-10-27 16:19:34] The value of Progress is 42
+[Debug] [2023-10-27 16:19:34] The value of Progress is 45
+[Debug] [2023-10-27 16:19:35] The value of Progress is 51
+[Debug] [2023-10-27 16:19:35] The value of Progress is 57
+[Debug] [2023-10-27 16:19:36] The value of Progress is 60
+[Debug] [2023-10-27 16:19:37] The value of Progress is 66
+[Debug] [2023-10-27 16:19:37] The value of Progress is 72
+[Debug] [2023-10-27 16:19:38] The value of Progress is 75
+[Debug] [2023-10-27 16:19:39] The value of Progress is 81
+[Debug] [2023-10-27 16:19:40] The value of Progress is 87
+[Debug] [2023-10-27 16:19:40] The value of Progress is 90
+[Debug] [2023-10-27 16:19:41] The value of Progress is 96
+[Debug] [2023-10-27 16:19:41] The value of Progress is 100
+[Debug] [2023-10-27 16:19:41] COMMAND[Erase Outer Flash] execute finish, takes 13.4 secs.
+[Debug] [2023-10-27 16:19:41] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 16:19:41] Send RPC:6
+[Debug] [2023-10-27 16:19:41] Begin to send jtag flash program data.
+[Debug] [2023-10-27 16:19:41] Begin to send flash program data.
+[Debug] [2023-10-27 16:19:41] End to send flash program data.
+[Debug] [2023-10-27 16:19:41] End to send embed flash program data.
+[Debug] [2023-10-27 16:19:41] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 16:19:43] The value of Progress is 1
+[Debug] [2023-10-27 16:19:45] The value of Progress is 6
+[Debug] [2023-10-27 16:19:46] The value of Progress is 10
+[Debug] [2023-10-27 16:19:48] The value of Progress is 15
+[Debug] [2023-10-27 16:19:50] The value of Progress is 20
+[Debug] [2023-10-27 16:19:51] The value of Progress is 25
+[Debug] [2023-10-27 16:19:53] The value of Progress is 30
+[Debug] [2023-10-27 16:19:54] The value of Progress is 35
+[Debug] [2023-10-27 16:19:56] The value of Progress is 40
+[Debug] [2023-10-27 16:19:58] The value of Progress is 45
+[Debug] [2023-10-27 16:19:59] The value of Progress is 50
+[Debug] [2023-10-27 16:20:01] The value of Progress is 55
+[Debug] [2023-10-27 16:20:03] The value of Progress is 60
+[Debug] [2023-10-27 16:20:04] The value of Progress is 65
+[Debug] [2023-10-27 16:20:06] The value of Progress is 70
+[Debug] [2023-10-27 16:20:08] The value of Progress is 75
+[Debug] [2023-10-27 16:20:09] The value of Progress is 80
+[Debug] [2023-10-27 16:20:11] The value of Progress is 85
+[Debug] [2023-10-27 16:20:13] The value of Progress is 90
+[Debug] [2023-10-27 16:20:14] The value of Progress is 95
+[Debug] [2023-10-27 16:20:16] The value of Progress is 100
+[Debug] [2023-10-27 16:20:16] COMMAND[Program Outer Flash] execute finish, takes 35.2 secs.
+[Debug] [2023-10-27 16:20:16] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 16:20:16] Send RPC:7
+[Debug] [2023-10-27 16:20:16] Begin to send embed flash verify data.
+[Debug] [2023-10-27 16:20:16] Begin to send flash verify data.
+[Debug] [2023-10-27 16:20:16] End to send flash verify data.
+[Debug] [2023-10-27 16:20:16] End to send embed flash verify data.
+[Debug] [2023-10-27 16:20:16] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 16:20:16] The value of Progress is 1
+[Debug] [2023-10-27 16:20:16] The value of Progress is 6
+[Debug] [2023-10-27 16:20:16] The value of Progress is 10
+[Debug] [2023-10-27 16:20:16] The value of Progress is 15
+[Debug] [2023-10-27 16:20:17] The value of Progress is 20
+[Debug] [2023-10-27 16:20:17] The value of Progress is 25
+[Debug] [2023-10-27 16:20:17] The value of Progress is 30
+[Debug] [2023-10-27 16:20:17] The value of Progress is 35
+[Debug] [2023-10-27 16:20:17] The value of Progress is 40
+[Debug] [2023-10-27 16:20:17] The value of Progress is 45
+[Debug] [2023-10-27 16:20:17] The value of Progress is 50
+[Debug] [2023-10-27 16:20:17] The value of Progress is 55
+[Debug] [2023-10-27 16:20:17] The value of Progress is 60
+[Debug] [2023-10-27 16:20:18] The value of Progress is 65
+[Debug] [2023-10-27 16:20:18] The value of Progress is 70
+[Debug] [2023-10-27 16:20:18] The value of Progress is 75
+[Debug] [2023-10-27 16:20:18] The value of Progress is 80
+[Debug] [2023-10-27 16:20:18] The value of Progress is 85
+[Debug] [2023-10-27 16:20:18] The value of Progress is 90
+[Debug] [2023-10-27 16:20:18] The value of Progress is 95
+[Debug] [2023-10-27 16:20:18] The value of Progress is 100
+[Debug] [2023-10-27 16:20:18] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 16:20:18] end to send jtag flash verify cmd
+[Debug] [2023-10-27 16:20:18] end to send jtag flash program cmd.
+[Debug] [2023-10-27 16:23:20] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 16:23:20] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 16:23:20] Send RPC:8
+[Debug] [2023-10-27 16:23:20] Begin to send embed flash erase data.
+[Debug] [2023-10-27 16:23:20] Begin to send flash erase data.
+[Debug] [2023-10-27 16:23:20] End to send flash erase data.
+[Debug] [2023-10-27 16:23:20] End to send embed flash erase data.
+[Debug] [2023-10-27 16:23:20] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 16:23:20] The value of Progress is 1
+[Debug] [2023-10-27 16:23:21] The value of Progress is 6
+[Debug] [2023-10-27 16:23:22] The value of Progress is 12
+[Debug] [2023-10-27 16:23:23] The value of Progress is 15
+[Debug] [2023-10-27 16:23:23] The value of Progress is 21
+[Debug] [2023-10-27 16:23:24] The value of Progress is 27
+[Debug] [2023-10-27 16:23:25] The value of Progress is 30
+[Debug] [2023-10-27 16:23:25] The value of Progress is 36
+[Debug] [2023-10-27 16:23:26] The value of Progress is 42
+[Debug] [2023-10-27 16:23:27] The value of Progress is 45
+[Debug] [2023-10-27 16:23:27] The value of Progress is 51
+[Debug] [2023-10-27 16:23:28] The value of Progress is 57
+[Debug] [2023-10-27 16:23:29] The value of Progress is 60
+[Debug] [2023-10-27 16:23:29] The value of Progress is 66
+[Debug] [2023-10-27 16:23:30] The value of Progress is 72
+[Debug] [2023-10-27 16:23:30] The value of Progress is 75
+[Debug] [2023-10-27 16:23:31] The value of Progress is 81
+[Debug] [2023-10-27 16:23:32] The value of Progress is 87
+[Debug] [2023-10-27 16:23:32] The value of Progress is 90
+[Debug] [2023-10-27 16:23:33] The value of Progress is 96
+[Debug] [2023-10-27 16:23:33] The value of Progress is 100
+[Debug] [2023-10-27 16:23:33] COMMAND[Erase Outer Flash] execute finish, takes 13.0 secs.
+[Debug] [2023-10-27 16:23:33] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 16:23:33] Send RPC:9
+[Debug] [2023-10-27 16:23:33] Begin to send jtag flash program data.
+[Debug] [2023-10-27 16:23:33] Begin to send flash program data.
+[Debug] [2023-10-27 16:23:33] End to send flash program data.
+[Debug] [2023-10-27 16:23:33] End to send embed flash program data.
+[Debug] [2023-10-27 16:23:33] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 16:23:35] The value of Progress is 1
+[Debug] [2023-10-27 16:23:37] The value of Progress is 6
+[Debug] [2023-10-27 16:23:38] The value of Progress is 10
+[Debug] [2023-10-27 16:23:40] The value of Progress is 15
+[Debug] [2023-10-27 16:23:42] The value of Progress is 20
+[Debug] [2023-10-27 16:23:43] The value of Progress is 25
+[Debug] [2023-10-27 16:23:45] The value of Progress is 30
+[Debug] [2023-10-27 16:23:47] The value of Progress is 35
+[Debug] [2023-10-27 16:23:48] The value of Progress is 40
+[Debug] [2023-10-27 16:23:50] The value of Progress is 45
+[Debug] [2023-10-27 16:23:52] The value of Progress is 50
+[Debug] [2023-10-27 16:23:53] The value of Progress is 55
+[Debug] [2023-10-27 16:23:55] The value of Progress is 60
+[Debug] [2023-10-27 16:23:57] The value of Progress is 65
+[Debug] [2023-10-27 16:23:58] The value of Progress is 70
+[Debug] [2023-10-27 16:24:00] The value of Progress is 75
+[Debug] [2023-10-27 16:24:01] The value of Progress is 80
+[Debug] [2023-10-27 16:24:03] The value of Progress is 85
+[Debug] [2023-10-27 16:24:05] The value of Progress is 90
+[Debug] [2023-10-27 16:24:06] The value of Progress is 95
+[Debug] [2023-10-27 16:24:08] The value of Progress is 100
+[Debug] [2023-10-27 16:24:08] COMMAND[Program Outer Flash] execute finish, takes 35.1 secs.
+[Debug] [2023-10-27 16:24:08] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 16:24:08] Send RPC:10
+[Debug] [2023-10-27 16:24:08] Begin to send embed flash verify data.
+[Debug] [2023-10-27 16:24:08] Begin to send flash verify data.
+[Debug] [2023-10-27 16:24:08] End to send flash verify data.
+[Debug] [2023-10-27 16:24:08] End to send embed flash verify data.
+[Debug] [2023-10-27 16:24:08] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 16:24:08] The value of Progress is 1
+[Debug] [2023-10-27 16:24:08] The value of Progress is 6
+[Debug] [2023-10-27 16:24:09] The value of Progress is 10
+[Debug] [2023-10-27 16:24:09] The value of Progress is 15
+[Debug] [2023-10-27 16:24:09] The value of Progress is 20
+[Debug] [2023-10-27 16:24:09] The value of Progress is 25
+[Debug] [2023-10-27 16:24:09] The value of Progress is 30
+[Debug] [2023-10-27 16:24:09] The value of Progress is 35
+[Debug] [2023-10-27 16:24:09] The value of Progress is 40
+[Debug] [2023-10-27 16:24:09] The value of Progress is 45
+[Debug] [2023-10-27 16:24:09] The value of Progress is 50
+[Debug] [2023-10-27 16:24:09] The value of Progress is 55
+[Debug] [2023-10-27 16:24:10] The value of Progress is 60
+[Debug] [2023-10-27 16:24:10] The value of Progress is 65
+[Debug] [2023-10-27 16:24:10] The value of Progress is 70
+[Debug] [2023-10-27 16:24:10] The value of Progress is 75
+[Debug] [2023-10-27 16:24:10] The value of Progress is 80
+[Debug] [2023-10-27 16:24:10] The value of Progress is 85
+[Debug] [2023-10-27 16:24:10] The value of Progress is 90
+[Debug] [2023-10-27 16:24:10] The value of Progress is 95
+[Debug] [2023-10-27 16:24:10] The value of Progress is 100
+[Debug] [2023-10-27 16:24:11] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 16:24:11] end to send jtag flash verify cmd
+[Debug] [2023-10-27 16:24:11] end to send jtag flash program cmd.
+[Debug] [2023-10-27 16:43:18] Begin to Converte file.
+[Debug] [2023-10-27 16:43:18] End to Converte file.
+[Debug] [2023-10-27 16:43:20] begin to parse sfc file.
+[Debug] [2023-10-27 16:43:20] begin to get device info from CFG file...
+[Debug] [2023-10-27 16:43:20] end to get device info from CFG file...
+[Debug] [2023-10-27 16:43:20] begin to get device info from CFG file...
+[Debug] [2023-10-27 16:43:20] end to get device info from CFG file...
+[Debug] [2023-10-27 16:43:20] end to parse sfc file.
+[Debug] [2023-10-27 16:43:25] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 16:43:25] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 16:43:25] Send RPC:11
+[Debug] [2023-10-27 16:43:25] Begin to send embed flash erase data.
+[Debug] [2023-10-27 16:43:25] Begin to send flash erase data.
+[Debug] [2023-10-27 16:43:25] End to send flash erase data.
+[Debug] [2023-10-27 16:43:25] End to send embed flash erase data.
+[Debug] [2023-10-27 16:43:25] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 16:43:25] The value of Progress is 1
+[Debug] [2023-10-27 16:43:26] The value of Progress is 6
+[Debug] [2023-10-27 16:43:27] The value of Progress is 12
+[Debug] [2023-10-27 16:43:27] The value of Progress is 15
+[Debug] [2023-10-27 16:43:28] The value of Progress is 21
+[Debug] [2023-10-27 16:43:29] The value of Progress is 27
+[Debug] [2023-10-27 16:43:29] The value of Progress is 30
+[Debug] [2023-10-27 16:43:30] The value of Progress is 36
+[Debug] [2023-10-27 16:43:31] The value of Progress is 42
+[Debug] [2023-10-27 16:43:31] The value of Progress is 45
+[Debug] [2023-10-27 16:43:32] The value of Progress is 51
+[Debug] [2023-10-27 16:43:33] The value of Progress is 57
+[Debug] [2023-10-27 16:43:33] The value of Progress is 60
+[Debug] [2023-10-27 16:43:34] The value of Progress is 66
+[Debug] [2023-10-27 16:43:35] The value of Progress is 72
+[Debug] [2023-10-27 16:43:35] The value of Progress is 75
+[Debug] [2023-10-27 16:43:36] The value of Progress is 81
+[Debug] [2023-10-27 16:43:37] The value of Progress is 87
+[Debug] [2023-10-27 16:43:37] The value of Progress is 90
+[Debug] [2023-10-27 16:43:38] The value of Progress is 96
+[Debug] [2023-10-27 16:43:38] The value of Progress is 100
+[Debug] [2023-10-27 16:43:38] COMMAND[Erase Outer Flash] execute finish, takes 13.8 secs.
+[Debug] [2023-10-27 16:43:38] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 16:43:38] Send RPC:12
+[Debug] [2023-10-27 16:43:38] Begin to send jtag flash program data.
+[Debug] [2023-10-27 16:43:38] Begin to send flash program data.
+[Debug] [2023-10-27 16:43:38] End to send flash program data.
+[Debug] [2023-10-27 16:43:38] End to send embed flash program data.
+[Debug] [2023-10-27 16:43:38] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 16:43:41] The value of Progress is 1
+[Debug] [2023-10-27 16:43:42] The value of Progress is 6
+[Debug] [2023-10-27 16:43:44] The value of Progress is 10
+[Debug] [2023-10-27 16:43:45] The value of Progress is 15
+[Debug] [2023-10-27 16:43:47] The value of Progress is 20
+[Debug] [2023-10-27 16:43:49] The value of Progress is 25
+[Debug] [2023-10-27 16:43:50] The value of Progress is 30
+[Debug] [2023-10-27 16:43:52] The value of Progress is 35
+[Debug] [2023-10-27 16:43:54] The value of Progress is 40
+[Debug] [2023-10-27 16:43:55] The value of Progress is 45
+[Debug] [2023-10-27 16:43:57] The value of Progress is 50
+[Debug] [2023-10-27 16:43:59] The value of Progress is 55
+[Debug] [2023-10-27 16:44:00] The value of Progress is 60
+[Debug] [2023-10-27 16:44:02] The value of Progress is 65
+[Debug] [2023-10-27 16:44:04] The value of Progress is 70
+[Debug] [2023-10-27 16:44:05] The value of Progress is 75
+[Debug] [2023-10-27 16:44:07] The value of Progress is 80
+[Debug] [2023-10-27 16:44:08] The value of Progress is 85
+[Debug] [2023-10-27 16:44:10] The value of Progress is 90
+[Debug] [2023-10-27 16:44:12] The value of Progress is 95
+[Debug] [2023-10-27 16:44:13] The value of Progress is 100
+[Debug] [2023-10-27 16:44:14] COMMAND[Program Outer Flash] execute finish, takes 35.3 secs.
+[Debug] [2023-10-27 16:44:14] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 16:44:14] Send RPC:13
+[Debug] [2023-10-27 16:44:14] Begin to send embed flash verify data.
+[Debug] [2023-10-27 16:44:14] Begin to send flash verify data.
+[Debug] [2023-10-27 16:44:14] End to send flash verify data.
+[Debug] [2023-10-27 16:44:14] End to send embed flash verify data.
+[Debug] [2023-10-27 16:44:14] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 16:44:14] The value of Progress is 1
+[Debug] [2023-10-27 16:44:14] The value of Progress is 6
+[Debug] [2023-10-27 16:44:14] The value of Progress is 10
+[Debug] [2023-10-27 16:44:14] The value of Progress is 15
+[Debug] [2023-10-27 16:44:14] The value of Progress is 20
+[Debug] [2023-10-27 16:44:14] The value of Progress is 25
+[Debug] [2023-10-27 16:44:14] The value of Progress is 30
+[Debug] [2023-10-27 16:44:15] The value of Progress is 35
+[Debug] [2023-10-27 16:44:15] The value of Progress is 40
+[Debug] [2023-10-27 16:44:15] The value of Progress is 45
+[Debug] [2023-10-27 16:44:15] The value of Progress is 50
+[Debug] [2023-10-27 16:44:15] The value of Progress is 55
+[Debug] [2023-10-27 16:44:15] The value of Progress is 60
+[Debug] [2023-10-27 16:44:15] The value of Progress is 65
+[Debug] [2023-10-27 16:44:15] The value of Progress is 70
+[Debug] [2023-10-27 16:44:15] The value of Progress is 75
+[Debug] [2023-10-27 16:44:15] The value of Progress is 80
+[Debug] [2023-10-27 16:44:16] The value of Progress is 85
+[Debug] [2023-10-27 16:44:16] The value of Progress is 90
+[Debug] [2023-10-27 16:44:16] The value of Progress is 95
+[Debug] [2023-10-27 16:44:16] The value of Progress is 100
+[Debug] [2023-10-27 16:44:16] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 16:44:16] end to send jtag flash verify cmd
+[Debug] [2023-10-27 16:44:16] end to send jtag flash program cmd.
+[Debug] [2023-10-27 16:44:28] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 16:44:28] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 16:44:28] Send RPC:14
+[Debug] [2023-10-27 16:44:28] Begin to send embed flash erase data.
+[Debug] [2023-10-27 16:44:28] Begin to send flash erase data.
+[Debug] [2023-10-27 16:44:28] End to send flash erase data.
+[Debug] [2023-10-27 16:44:28] End to send embed flash erase data.
+[Debug] [2023-10-27 16:44:28] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 16:44:28] The value of Progress is 1
+[Debug] [2023-10-27 16:44:29] The value of Progress is 6
+[Debug] [2023-10-27 16:44:30] The value of Progress is 12
+[Debug] [2023-10-27 16:44:31] The value of Progress is 15
+[Debug] [2023-10-27 16:44:32] The value of Progress is 21
+[Debug] [2023-10-27 16:44:32] The value of Progress is 27
+[Debug] [2023-10-27 16:44:33] The value of Progress is 30
+[Debug] [2023-10-27 16:44:34] The value of Progress is 36
+[Debug] [2023-10-27 16:44:35] The value of Progress is 42
+[Debug] [2023-10-27 16:44:35] The value of Progress is 45
+[Debug] [2023-10-27 16:44:36] The value of Progress is 51
+[Debug] [2023-10-27 16:44:37] The value of Progress is 57
+[Debug] [2023-10-27 16:44:37] The value of Progress is 60
+[Debug] [2023-10-27 16:44:38] The value of Progress is 66
+[Debug] [2023-10-27 16:44:39] The value of Progress is 72
+[Debug] [2023-10-27 16:44:39] The value of Progress is 75
+[Debug] [2023-10-27 16:44:40] The value of Progress is 81
+[Debug] [2023-10-27 16:44:41] The value of Progress is 87
+[Debug] [2023-10-27 16:44:41] The value of Progress is 90
+[Debug] [2023-10-27 16:44:42] The value of Progress is 96
+[Debug] [2023-10-27 16:44:42] The value of Progress is 100
+[Debug] [2023-10-27 16:44:42] COMMAND[Erase Outer Flash] execute finish, takes 14.5 secs.
+[Debug] [2023-10-27 16:44:42] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 16:44:42] Send RPC:15
+[Debug] [2023-10-27 16:44:42] Begin to send jtag flash program data.
+[Debug] [2023-10-27 16:44:42] Begin to send flash program data.
+[Debug] [2023-10-27 16:44:42] End to send flash program data.
+[Debug] [2023-10-27 16:44:42] End to send embed flash program data.
+[Debug] [2023-10-27 16:44:42] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 16:44:45] The value of Progress is 1
+[Debug] [2023-10-27 16:44:47] The value of Progress is 6
+[Debug] [2023-10-27 16:44:48] The value of Progress is 10
+[Debug] [2023-10-27 16:44:50] The value of Progress is 15
+[Debug] [2023-10-27 16:44:51] The value of Progress is 20
+[Debug] [2023-10-27 16:44:53] The value of Progress is 25
+[Debug] [2023-10-27 16:44:54] The value of Progress is 30
+[Debug] [2023-10-27 16:44:56] The value of Progress is 35
+[Debug] [2023-10-27 16:44:58] The value of Progress is 40
+[Debug] [2023-10-27 16:44:59] The value of Progress is 45
+[Debug] [2023-10-27 16:45:01] The value of Progress is 50
+[Debug] [2023-10-27 16:45:03] The value of Progress is 55
+[Debug] [2023-10-27 16:45:04] The value of Progress is 60
+[Debug] [2023-10-27 16:45:06] The value of Progress is 65
+[Debug] [2023-10-27 16:45:08] The value of Progress is 70
+[Debug] [2023-10-27 16:45:09] The value of Progress is 75
+[Debug] [2023-10-27 16:45:11] The value of Progress is 80
+[Debug] [2023-10-27 16:45:13] The value of Progress is 85
+[Debug] [2023-10-27 16:45:14] The value of Progress is 90
+[Debug] [2023-10-27 16:45:16] The value of Progress is 95
+[Debug] [2023-10-27 16:45:17] The value of Progress is 100
+[Debug] [2023-10-27 16:45:18] COMMAND[Program Outer Flash] execute finish, takes 35.3 secs.
+[Debug] [2023-10-27 16:45:18] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 16:45:18] Send RPC:16
+[Debug] [2023-10-27 16:45:18] Begin to send embed flash verify data.
+[Debug] [2023-10-27 16:45:18] Begin to send flash verify data.
+[Debug] [2023-10-27 16:45:18] End to send flash verify data.
+[Debug] [2023-10-27 16:45:18] End to send embed flash verify data.
+[Debug] [2023-10-27 16:45:18] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 16:45:18] The value of Progress is 1
+[Debug] [2023-10-27 16:45:18] The value of Progress is 6
+[Debug] [2023-10-27 16:45:18] The value of Progress is 10
+[Debug] [2023-10-27 16:45:18] The value of Progress is 15
+[Debug] [2023-10-27 16:45:18] The value of Progress is 20
+[Debug] [2023-10-27 16:45:18] The value of Progress is 25
+[Debug] [2023-10-27 16:45:19] The value of Progress is 30
+[Debug] [2023-10-27 16:45:19] The value of Progress is 35
+[Debug] [2023-10-27 16:45:19] The value of Progress is 40
+[Debug] [2023-10-27 16:45:19] The value of Progress is 45
+[Debug] [2023-10-27 16:45:19] The value of Progress is 50
+[Debug] [2023-10-27 16:45:19] The value of Progress is 55
+[Debug] [2023-10-27 16:45:19] The value of Progress is 60
+[Debug] [2023-10-27 16:45:19] The value of Progress is 65
+[Debug] [2023-10-27 16:45:19] The value of Progress is 70
+[Debug] [2023-10-27 16:45:19] The value of Progress is 75
+[Debug] [2023-10-27 16:45:20] The value of Progress is 80
+[Debug] [2023-10-27 16:45:20] The value of Progress is 85
+[Debug] [2023-10-27 16:45:20] The value of Progress is 90
+[Debug] [2023-10-27 16:45:20] The value of Progress is 95
+[Debug] [2023-10-27 16:45:20] The value of Progress is 100
+[Debug] [2023-10-27 16:45:20] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 16:45:20] end to send jtag flash verify cmd
+[Debug] [2023-10-27 16:45:20] end to send jtag flash program cmd.
+[Debug] [2023-10-27 16:45:42] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 16:45:42] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 16:45:42] Send RPC:17
+[Debug] [2023-10-27 16:45:42] Begin to send embed flash erase data.
+[Debug] [2023-10-27 16:45:42] Begin to send flash erase data.
+[Debug] [2023-10-27 16:45:42] End to send flash erase data.
+[Debug] [2023-10-27 16:45:42] End to send embed flash erase data.
+[Debug] [2023-10-27 16:45:42] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 16:45:42] The value of Progress is 1
+[Debug] [2023-10-27 16:45:44] The value of Progress is 6
+[Debug] [2023-10-27 16:45:44] The value of Progress is 12
+[Debug] [2023-10-27 16:45:45] The value of Progress is 15
+[Debug] [2023-10-27 16:45:46] The value of Progress is 21
+[Debug] [2023-10-27 16:45:46] The value of Progress is 27
+[Debug] [2023-10-27 16:45:47] The value of Progress is 30
+[Debug] [2023-10-27 16:45:48] The value of Progress is 36
+[Debug] [2023-10-27 16:45:48] The value of Progress is 42
+[Debug] [2023-10-27 16:45:49] The value of Progress is 45
+[Debug] [2023-10-27 16:45:49] The value of Progress is 51
+[Debug] [2023-10-27 16:45:50] The value of Progress is 57
+[Debug] [2023-10-27 16:45:51] The value of Progress is 60
+[Debug] [2023-10-27 16:45:51] The value of Progress is 66
+[Debug] [2023-10-27 16:45:52] The value of Progress is 72
+[Debug] [2023-10-27 16:45:53] The value of Progress is 75
+[Debug] [2023-10-27 16:45:53] The value of Progress is 81
+[Debug] [2023-10-27 16:45:54] The value of Progress is 87
+[Debug] [2023-10-27 16:45:55] The value of Progress is 90
+[Debug] [2023-10-27 16:45:55] The value of Progress is 96
+[Debug] [2023-10-27 16:45:55] The value of Progress is 100
+[Debug] [2023-10-27 16:45:56] COMMAND[Erase Outer Flash] execute finish, takes 13.4 secs.
+[Debug] [2023-10-27 16:45:56] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 16:45:56] Send RPC:18
+[Debug] [2023-10-27 16:45:56] Begin to send jtag flash program data.
+[Debug] [2023-10-27 16:45:56] Begin to send flash program data.
+[Debug] [2023-10-27 16:45:56] End to send flash program data.
+[Debug] [2023-10-27 16:45:56] End to send embed flash program data.
+[Debug] [2023-10-27 16:45:56] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 16:45:58] The value of Progress is 1
+[Debug] [2023-10-27 16:46:00] The value of Progress is 6
+[Debug] [2023-10-27 16:46:01] The value of Progress is 10
+[Debug] [2023-10-27 16:46:03] The value of Progress is 15
+[Debug] [2023-10-27 16:46:04] The value of Progress is 20
+[Debug] [2023-10-27 16:46:06] The value of Progress is 25
+[Debug] [2023-10-27 16:46:08] The value of Progress is 30
+[Debug] [2023-10-27 16:46:09] The value of Progress is 35
+[Debug] [2023-10-27 16:46:11] The value of Progress is 40
+[Debug] [2023-10-27 16:46:13] The value of Progress is 45
+[Debug] [2023-10-27 16:46:14] The value of Progress is 50
+[Debug] [2023-10-27 16:46:16] The value of Progress is 55
+[Debug] [2023-10-27 16:46:17] The value of Progress is 60
+[Debug] [2023-10-27 16:46:19] The value of Progress is 65
+[Debug] [2023-10-27 16:46:21] The value of Progress is 70
+[Debug] [2023-10-27 16:46:22] The value of Progress is 75
+[Debug] [2023-10-27 16:46:24] The value of Progress is 80
+[Debug] [2023-10-27 16:46:26] The value of Progress is 85
+[Debug] [2023-10-27 16:46:27] The value of Progress is 90
+[Debug] [2023-10-27 16:46:29] The value of Progress is 95
+[Debug] [2023-10-27 16:46:31] The value of Progress is 100
+[Debug] [2023-10-27 16:46:31] COMMAND[Program Outer Flash] execute finish, takes 35.1 secs.
+[Debug] [2023-10-27 16:46:31] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 16:46:31] Send RPC:19
+[Debug] [2023-10-27 16:46:31] Begin to send embed flash verify data.
+[Debug] [2023-10-27 16:46:31] Begin to send flash verify data.
+[Debug] [2023-10-27 16:46:31] End to send flash verify data.
+[Debug] [2023-10-27 16:46:31] End to send embed flash verify data.
+[Debug] [2023-10-27 16:46:31] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 16:46:31] The value of Progress is 1
+[Debug] [2023-10-27 16:46:31] The value of Progress is 6
+[Debug] [2023-10-27 16:46:31] The value of Progress is 10
+[Debug] [2023-10-27 16:46:31] The value of Progress is 15
+[Debug] [2023-10-27 16:46:31] The value of Progress is 20
+[Debug] [2023-10-27 16:46:31] The value of Progress is 25
+[Debug] [2023-10-27 16:46:32] The value of Progress is 30
+[Debug] [2023-10-27 16:46:32] The value of Progress is 35
+[Debug] [2023-10-27 16:46:32] The value of Progress is 40
+[Debug] [2023-10-27 16:46:32] The value of Progress is 45
+[Debug] [2023-10-27 16:46:32] The value of Progress is 50
+[Debug] [2023-10-27 16:46:32] The value of Progress is 55
+[Debug] [2023-10-27 16:46:32] The value of Progress is 60
+[Debug] [2023-10-27 16:46:32] The value of Progress is 65
+[Debug] [2023-10-27 16:46:32] The value of Progress is 70
+[Debug] [2023-10-27 16:46:32] The value of Progress is 75
+[Debug] [2023-10-27 16:46:33] The value of Progress is 80
+[Debug] [2023-10-27 16:46:33] The value of Progress is 85
+[Debug] [2023-10-27 16:46:33] The value of Progress is 90
+[Debug] [2023-10-27 16:46:33] The value of Progress is 95
+[Debug] [2023-10-27 16:46:33] The value of Progress is 100
+[Debug] [2023-10-27 16:46:33] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 16:46:33] end to send jtag flash verify cmd
+[Debug] [2023-10-27 16:46:33] end to send jtag flash program cmd.
+[Info] [2023-10-27 17:23:02] /***************************End Configration***************************/
+[Info] [2023-10-27 17:27:03] /***************************Start Configuration***************************/
+[Info] [2023-10-27 17:27:03] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-27 17:27:03] Version: 99559
+[Info] [2023-10-27 17:27:04] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 17:27:04] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-27 17:27:09] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-27 17:27:09] Client Local host name:GGB
+[Debug] [2023-10-27 17:27:09] Client Local Address:10.133.253.224
+[Debug] [2023-10-27 17:27:09] Client Local Address:192.168.137.1
+[Debug] [2023-10-27 17:27:09] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-27 17:27:10] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-27 17:27:10] Finish.
+[Info] [2023-10-27 17:27:10] Connect server succeeded
+[Debug] [2023-10-27 17:27:10] Send RPC:1
+[Debug] [2023-10-27 17:27:10] Send cmd [check version information:40005] OK
+[Debug] [2023-10-27 17:27:10] Send RPC:2
+[Debug] [2023-10-27 17:27:10] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-27 17:27:10] Begin to send initialize chain cmd...
+[Debug] [2023-10-27 17:27:10] Send RPC:3
+[Debug] [2023-10-27 17:27:10] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-27 17:27:10] End to send initialize chain cmd.
+[Debug] [2023-10-27 17:27:10] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-10-27 17:27:11] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2023-10-27 17:27:11] begin the exec of open cable cmd...
+[Debug] [2023-10-27 17:27:11] Begin to deal with chain from server...
+[Debug] [2023-10-27 17:27:11] Begin to set user chain...
+[Debug] [2023-10-27 17:27:11] End to set user chain.
+[Debug] [2023-10-27 17:27:11] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 17:27:11] End to update graphic item and tree item ...
+[Info] [2023-10-27 17:27:15] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-27 17:27:15] begin to get device info from CFG file...
+[Debug] [2023-10-27 17:27:15] end to get device info from CFG file...
+[Debug] [2023-10-27 17:27:15] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 17:27:15] End to update graphic item and tree item ...
+[Debug] [2023-10-27 17:27:15] End to deal wiht chain from server.
+[Debug] [2023-10-27 17:27:15] end the exec of open cable cmd.
+[Debug] [2023-10-27 17:27:15] COMMAND[Open config cable] execute successfully, takes 4.9 secs.
+[Debug] [2023-10-27 17:27:16] Begin to Converte file.
+[Debug] [2023-10-27 17:27:25] begin to parse sfc file.
+[Debug] [2023-10-27 17:27:25] begin to get device info from CFG file...
+[Debug] [2023-10-27 17:27:25] end to get device info from CFG file...
+[Debug] [2023-10-27 17:27:25] begin to get device info from CFG file...
+[Debug] [2023-10-27 17:27:25] end to get device info from CFG file...
+[Debug] [2023-10-27 17:27:25] end to parse sfc file.
+[Debug] [2023-10-27 17:27:26] End to Converte file.
+[Debug] [2023-10-27 17:27:28] Begin to send scan outer flash cmd...
+[Debug] [2023-10-27 17:27:28] Send RPC:4
+[Debug] [2023-10-27 17:27:28] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-27 17:27:28] End to send scan outer flash cmd.
+[Debug] [2023-10-27 17:27:28] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-27 17:27:28] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-27 17:27:28] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 17:27:28] End to update graphic item and tree item ...
+[Info] [2023-10-27 17:27:30] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-27 17:27:30] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 17:27:30] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-27 17:27:30] Begin to update graphic item and tree item ...
+[Debug] [2023-10-27 17:27:30] End to update graphic item and tree item ...
+[Debug] [2023-10-27 17:27:30] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-27 17:27:30] end to exec scan jtag flash cmd...
+[Debug] [2023-10-27 17:27:30] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.1 secs.
+[Debug] [2023-10-27 17:27:32] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 17:27:32] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 17:27:32] Send RPC:5
+[Debug] [2023-10-27 17:27:32] Begin to send embed flash erase data.
+[Debug] [2023-10-27 17:27:32] Begin to send flash erase data.
+[Debug] [2023-10-27 17:27:32] End to send flash erase data.
+[Debug] [2023-10-27 17:27:32] End to send embed flash erase data.
+[Debug] [2023-10-27 17:27:32] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 17:27:33] The value of Progress is 1
+[Debug] [2023-10-27 17:27:34] The value of Progress is 6
+[Debug] [2023-10-27 17:27:34] The value of Progress is 12
+[Debug] [2023-10-27 17:27:35] The value of Progress is 15
+[Debug] [2023-10-27 17:27:36] The value of Progress is 21
+[Debug] [2023-10-27 17:27:36] The value of Progress is 27
+[Debug] [2023-10-27 17:27:37] The value of Progress is 30
+[Debug] [2023-10-27 17:27:37] The value of Progress is 36
+[Debug] [2023-10-27 17:27:38] The value of Progress is 42
+[Debug] [2023-10-27 17:27:39] The value of Progress is 45
+[Debug] [2023-10-27 17:27:39] The value of Progress is 51
+[Debug] [2023-10-27 17:27:40] The value of Progress is 57
+[Debug] [2023-10-27 17:27:41] The value of Progress is 60
+[Debug] [2023-10-27 17:27:41] The value of Progress is 66
+[Debug] [2023-10-27 17:27:42] The value of Progress is 72
+[Debug] [2023-10-27 17:27:43] The value of Progress is 75
+[Debug] [2023-10-27 17:27:43] The value of Progress is 81
+[Debug] [2023-10-27 17:27:44] The value of Progress is 87
+[Debug] [2023-10-27 17:27:44] The value of Progress is 90
+[Debug] [2023-10-27 17:27:45] The value of Progress is 96
+[Debug] [2023-10-27 17:27:45] The value of Progress is 100
+[Debug] [2023-10-27 17:27:45] COMMAND[Erase Outer Flash] execute finish, takes 12.8 secs.
+[Debug] [2023-10-27 17:27:45] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 17:27:45] Send RPC:6
+[Debug] [2023-10-27 17:27:45] Begin to send jtag flash program data.
+[Debug] [2023-10-27 17:27:45] Begin to send flash program data.
+[Debug] [2023-10-27 17:27:45] End to send flash program data.
+[Debug] [2023-10-27 17:27:45] End to send embed flash program data.
+[Debug] [2023-10-27 17:27:45] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 17:27:47] The value of Progress is 1
+[Debug] [2023-10-27 17:27:49] The value of Progress is 6
+[Debug] [2023-10-27 17:27:51] The value of Progress is 10
+[Debug] [2023-10-27 17:27:52] Begin to send abort process cmd.
+[Debug] [2023-10-27 17:27:52] Begin to flush aborting cmd. 
+[Debug] [2023-10-27 17:27:52] End to flush aborting cmd. 
+[Debug] [2023-10-27 17:27:52] End to send abort process cmd.
+[Debug] [2023-10-27 17:27:52] end to send jtag flash program cmd.
+[Debug] [2023-10-27 17:27:52] The value of Progress is 100
+[Error] [2023-10-27 17:27:52] fail to exec Program Outer Flash cmd...
+[Debug] [2023-10-27 17:27:56] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-27 17:27:56] begin to send jtag flash erase cmd
+[Debug] [2023-10-27 17:27:56] Send RPC:7
+[Debug] [2023-10-27 17:27:56] Begin to send embed flash erase data.
+[Debug] [2023-10-27 17:27:56] Begin to send flash erase data.
+[Debug] [2023-10-27 17:27:56] End to send flash erase data.
+[Debug] [2023-10-27 17:27:56] End to send embed flash erase data.
+[Debug] [2023-10-27 17:27:56] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-27 17:27:56] The value of Progress is 1
+[Debug] [2023-10-27 17:27:57] The value of Progress is 6
+[Debug] [2023-10-27 17:27:58] The value of Progress is 12
+[Debug] [2023-10-27 17:27:58] The value of Progress is 15
+[Debug] [2023-10-27 17:27:59] The value of Progress is 21
+[Debug] [2023-10-27 17:28:00] The value of Progress is 27
+[Debug] [2023-10-27 17:28:00] The value of Progress is 30
+[Debug] [2023-10-27 17:28:01] The value of Progress is 36
+[Debug] [2023-10-27 17:28:02] The value of Progress is 42
+[Debug] [2023-10-27 17:28:02] The value of Progress is 45
+[Debug] [2023-10-27 17:28:03] The value of Progress is 51
+[Debug] [2023-10-27 17:28:03] The value of Progress is 57
+[Debug] [2023-10-27 17:28:04] The value of Progress is 60
+[Debug] [2023-10-27 17:28:04] The value of Progress is 66
+[Debug] [2023-10-27 17:28:05] The value of Progress is 72
+[Debug] [2023-10-27 17:28:06] The value of Progress is 75
+[Debug] [2023-10-27 17:28:06] The value of Progress is 81
+[Debug] [2023-10-27 17:28:07] The value of Progress is 87
+[Debug] [2023-10-27 17:28:08] The value of Progress is 90
+[Debug] [2023-10-27 17:28:08] The value of Progress is 96
+[Debug] [2023-10-27 17:28:08] The value of Progress is 100
+[Debug] [2023-10-27 17:28:08] COMMAND[Erase Outer Flash] execute finish, takes 12.9 secs.
+[Debug] [2023-10-27 17:28:08] end to send jtag flash erase cmd.
+[Debug] [2023-10-27 17:28:08] Send RPC:8
+[Debug] [2023-10-27 17:28:08] Begin to send jtag flash program data.
+[Debug] [2023-10-27 17:28:08] Begin to send flash program data.
+[Debug] [2023-10-27 17:28:08] End to send flash program data.
+[Debug] [2023-10-27 17:28:08] End to send embed flash program data.
+[Debug] [2023-10-27 17:28:08] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-27 17:28:11] The value of Progress is 1
+[Debug] [2023-10-27 17:28:13] The value of Progress is 6
+[Debug] [2023-10-27 17:28:14] The value of Progress is 10
+[Debug] [2023-10-27 17:28:16] The value of Progress is 15
+[Debug] [2023-10-27 17:28:17] The value of Progress is 20
+[Debug] [2023-10-27 17:28:19] The value of Progress is 25
+[Debug] [2023-10-27 17:28:20] The value of Progress is 30
+[Debug] [2023-10-27 17:28:22] The value of Progress is 35
+[Debug] [2023-10-27 17:28:24] The value of Progress is 40
+[Debug] [2023-10-27 17:28:25] The value of Progress is 45
+[Debug] [2023-10-27 17:28:27] The value of Progress is 50
+[Debug] [2023-10-27 17:28:29] The value of Progress is 55
+[Debug] [2023-10-27 17:28:30] The value of Progress is 60
+[Debug] [2023-10-27 17:28:32] The value of Progress is 65
+[Debug] [2023-10-27 17:28:34] The value of Progress is 70
+[Debug] [2023-10-27 17:28:35] The value of Progress is 75
+[Debug] [2023-10-27 17:28:37] The value of Progress is 80
+[Debug] [2023-10-27 17:28:38] The value of Progress is 85
+[Debug] [2023-10-27 17:28:40] The value of Progress is 90
+[Debug] [2023-10-27 17:28:42] The value of Progress is 95
+[Debug] [2023-10-27 17:28:43] The value of Progress is 100
+[Debug] [2023-10-27 17:28:44] COMMAND[Program Outer Flash] execute finish, takes 35.2 secs.
+[Debug] [2023-10-27 17:28:44] begin to send jtag flash verify cmd
+[Debug] [2023-10-27 17:28:44] Send RPC:9
+[Debug] [2023-10-27 17:28:44] Begin to send embed flash verify data.
+[Debug] [2023-10-27 17:28:44] Begin to send flash verify data.
+[Debug] [2023-10-27 17:28:44] End to send flash verify data.
+[Debug] [2023-10-27 17:28:44] End to send embed flash verify data.
+[Debug] [2023-10-27 17:28:44] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-27 17:28:44] The value of Progress is 1
+[Debug] [2023-10-27 17:28:44] The value of Progress is 6
+[Debug] [2023-10-27 17:28:44] The value of Progress is 10
+[Debug] [2023-10-27 17:28:44] The value of Progress is 15
+[Debug] [2023-10-27 17:28:44] The value of Progress is 20
+[Debug] [2023-10-27 17:28:44] The value of Progress is 25
+[Debug] [2023-10-27 17:28:44] The value of Progress is 30
+[Debug] [2023-10-27 17:28:45] The value of Progress is 35
+[Debug] [2023-10-27 17:28:45] The value of Progress is 40
+[Debug] [2023-10-27 17:28:45] The value of Progress is 45
+[Debug] [2023-10-27 17:28:45] The value of Progress is 50
+[Debug] [2023-10-27 17:28:45] The value of Progress is 55
+[Debug] [2023-10-27 17:28:45] The value of Progress is 60
+[Debug] [2023-10-27 17:28:45] The value of Progress is 65
+[Debug] [2023-10-27 17:28:45] The value of Progress is 70
+[Debug] [2023-10-27 17:28:45] The value of Progress is 75
+[Debug] [2023-10-27 17:28:46] The value of Progress is 80
+[Debug] [2023-10-27 17:28:46] The value of Progress is 85
+[Debug] [2023-10-27 17:28:46] The value of Progress is 90
+[Debug] [2023-10-27 17:28:46] The value of Progress is 95
+[Debug] [2023-10-27 17:28:46] The value of Progress is 100
+[Debug] [2023-10-27 17:28:46] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-27 17:28:46] end to send jtag flash verify cmd
+[Debug] [2023-10-27 17:28:46] end to send jtag flash program cmd.
+[Info] [2023-10-28 01:18:14] /***************************End Configration***************************/
+[Info] [2023-10-28 08:05:43] /***************************Start Configuration***************************/
+[Info] [2023-10-28 08:05:43] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-28 08:05:43] Version: 99559
+[Info] [2023-10-28 08:05:44] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-28 08:05:44] PDS Dir Path: E:/PangoPro/tinyriscv
+[Debug] [2023-10-28 08:05:47] Begin to Converte file.
+[Debug] [2023-10-28 08:05:53] begin to parse sfc file.
+[Debug] [2023-10-28 08:05:53] begin to get device info from CFG file...
+[Debug] [2023-10-28 08:05:53] end to get device info from CFG file...
+[Debug] [2023-10-28 08:05:53] begin to get device info from CFG file...
+[Debug] [2023-10-28 08:05:53] end to get device info from CFG file...
+[Debug] [2023-10-28 08:05:53] end to parse sfc file.
+[Debug] [2023-10-28 08:05:55] End to Converte file.
+[Info] [2023-10-28 08:06:21] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-28 08:06:21] Client Local host name:GGB
+[Debug] [2023-10-28 08:06:21] Client Local Address:10.133.253.224
+[Debug] [2023-10-28 08:06:21] Client Local Address:192.168.137.1
+[Debug] [2023-10-28 08:06:21] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-28 08:06:22] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-28 08:06:22] Finish.
+[Info] [2023-10-28 08:06:22] Connect server succeeded
+[Debug] [2023-10-28 08:06:22] Send RPC:1
+[Debug] [2023-10-28 08:06:22] Send cmd [check version information:40005] OK
+[Debug] [2023-10-28 08:06:22] Send RPC:2
+[Debug] [2023-10-28 08:06:22] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-28 08:06:22] Begin to send initialize chain cmd...
+[Debug] [2023-10-28 08:06:22] Send RPC:3
+[Debug] [2023-10-28 08:06:22] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-28 08:06:22] End to send initialize chain cmd.
+[Debug] [2023-10-28 08:06:22] COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2023-10-28 08:06:23] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2023-10-28 08:06:27] begin the exec of open cable cmd...
+[Debug] [2023-10-28 08:06:27] Begin to deal with chain from server...
+[Debug] [2023-10-28 08:06:27] Begin to set user chain...
+[Debug] [2023-10-28 08:06:27] End to set user chain.
+[Debug] [2023-10-28 08:06:27] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 08:06:27] End to update graphic item and tree item ...
+[Info] [2023-10-28 08:06:31] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-28 08:06:31] begin to get device info from CFG file...
+[Debug] [2023-10-28 08:06:31] end to get device info from CFG file...
+[Debug] [2023-10-28 08:06:31] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 08:06:31] End to update graphic item and tree item ...
+[Debug] [2023-10-28 08:06:31] End to deal wiht chain from server.
+[Debug] [2023-10-28 08:06:31] end the exec of open cable cmd.
+[Debug] [2023-10-28 08:06:31] COMMAND[Open config cable] execute successfully, takes 9.7 secs.
+[Debug] [2023-10-28 08:06:33] Begin to send scan outer flash cmd...
+[Debug] [2023-10-28 08:06:33] Send RPC:4
+[Debug] [2023-10-28 08:06:33] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-28 08:06:33] End to send scan outer flash cmd.
+[Debug] [2023-10-28 08:06:34] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-28 08:06:34] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-28 08:06:34] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 08:06:34] End to update graphic item and tree item ...
+[Info] [2023-10-28 08:06:36] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-28 08:06:36] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-28 08:06:36] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-28 08:06:36] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 08:06:36] End to update graphic item and tree item ...
+[Debug] [2023-10-28 08:06:36] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-28 08:06:36] end to exec scan jtag flash cmd...
+[Debug] [2023-10-28 08:06:36] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.3 secs.
+[Debug] [2023-10-28 08:06:37] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-28 08:06:37] begin to send jtag flash erase cmd
+[Debug] [2023-10-28 08:06:37] Send RPC:5
+[Debug] [2023-10-28 08:06:37] Begin to send embed flash erase data.
+[Debug] [2023-10-28 08:06:37] Begin to send flash erase data.
+[Debug] [2023-10-28 08:06:37] End to send flash erase data.
+[Debug] [2023-10-28 08:06:37] End to send embed flash erase data.
+[Debug] [2023-10-28 08:06:37] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-28 08:06:38] The value of Progress is 1
+[Debug] [2023-10-28 08:06:39] The value of Progress is 6
+[Debug] [2023-10-28 08:06:40] The value of Progress is 12
+[Debug] [2023-10-28 08:06:40] The value of Progress is 15
+[Debug] [2023-10-28 08:06:41] The value of Progress is 21
+[Debug] [2023-10-28 08:06:42] The value of Progress is 27
+[Debug] [2023-10-28 08:06:42] The value of Progress is 30
+[Debug] [2023-10-28 08:06:43] The value of Progress is 36
+[Debug] [2023-10-28 08:06:44] The value of Progress is 42
+[Debug] [2023-10-28 08:06:44] The value of Progress is 45
+[Debug] [2023-10-28 08:06:45] The value of Progress is 51
+[Debug] [2023-10-28 08:06:46] The value of Progress is 57
+[Debug] [2023-10-28 08:06:46] The value of Progress is 60
+[Debug] [2023-10-28 08:06:47] The value of Progress is 66
+[Debug] [2023-10-28 08:06:48] The value of Progress is 72
+[Debug] [2023-10-28 08:06:49] The value of Progress is 75
+[Debug] [2023-10-28 08:06:50] The value of Progress is 81
+[Debug] [2023-10-28 08:06:50] The value of Progress is 87
+[Debug] [2023-10-28 08:06:51] The value of Progress is 90
+[Debug] [2023-10-28 08:06:52] The value of Progress is 96
+[Debug] [2023-10-28 08:06:52] The value of Progress is 100
+[Debug] [2023-10-28 08:06:52] COMMAND[Erase Outer Flash] execute finish, takes 14.5 secs.
+[Debug] [2023-10-28 08:06:52] end to send jtag flash erase cmd.
+[Debug] [2023-10-28 08:06:52] Send RPC:6
+[Debug] [2023-10-28 08:06:52] Begin to send jtag flash program data.
+[Debug] [2023-10-28 08:06:52] Begin to send flash program data.
+[Debug] [2023-10-28 08:06:52] End to send flash program data.
+[Debug] [2023-10-28 08:06:52] End to send embed flash program data.
+[Debug] [2023-10-28 08:06:52] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-28 08:06:54] The value of Progress is 1
+[Debug] [2023-10-28 08:06:56] The value of Progress is 6
+[Debug] [2023-10-28 08:06:57] The value of Progress is 10
+[Debug] [2023-10-28 08:06:59] The value of Progress is 15
+[Debug] [2023-10-28 08:07:01] The value of Progress is 20
+[Debug] [2023-10-28 08:07:02] The value of Progress is 25
+[Debug] [2023-10-28 08:07:04] The value of Progress is 30
+[Debug] [2023-10-28 08:07:06] The value of Progress is 35
+[Debug] [2023-10-28 08:07:07] The value of Progress is 40
+[Debug] [2023-10-28 08:07:09] The value of Progress is 45
+[Debug] [2023-10-28 08:07:10] The value of Progress is 50
+[Debug] [2023-10-28 08:07:12] The value of Progress is 55
+[Debug] [2023-10-28 08:07:14] The value of Progress is 60
+[Debug] [2023-10-28 08:07:15] The value of Progress is 65
+[Debug] [2023-10-28 08:07:17] The value of Progress is 70
+[Debug] [2023-10-28 08:07:19] The value of Progress is 75
+[Debug] [2023-10-28 08:07:20] The value of Progress is 80
+[Debug] [2023-10-28 08:07:22] The value of Progress is 85
+[Debug] [2023-10-28 08:07:24] The value of Progress is 90
+[Debug] [2023-10-28 08:07:25] The value of Progress is 95
+[Debug] [2023-10-28 08:07:27] The value of Progress is 100
+[Debug] [2023-10-28 08:07:27] COMMAND[Program Outer Flash] execute finish, takes 35.1 secs.
+[Debug] [2023-10-28 08:07:27] begin to send jtag flash verify cmd
+[Debug] [2023-10-28 08:07:27] Send RPC:7
+[Debug] [2023-10-28 08:07:27] Begin to send embed flash verify data.
+[Debug] [2023-10-28 08:07:27] Begin to send flash verify data.
+[Debug] [2023-10-28 08:07:27] End to send flash verify data.
+[Debug] [2023-10-28 08:07:27] End to send embed flash verify data.
+[Debug] [2023-10-28 08:07:27] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-28 08:07:27] The value of Progress is 1
+[Debug] [2023-10-28 08:07:27] The value of Progress is 6
+[Debug] [2023-10-28 08:07:27] The value of Progress is 10
+[Debug] [2023-10-28 08:07:27] The value of Progress is 15
+[Debug] [2023-10-28 08:07:28] The value of Progress is 20
+[Debug] [2023-10-28 08:07:28] The value of Progress is 25
+[Debug] [2023-10-28 08:07:28] The value of Progress is 30
+[Debug] [2023-10-28 08:07:28] The value of Progress is 35
+[Debug] [2023-10-28 08:07:28] The value of Progress is 40
+[Debug] [2023-10-28 08:07:28] The value of Progress is 45
+[Debug] [2023-10-28 08:07:28] The value of Progress is 50
+[Debug] [2023-10-28 08:07:28] The value of Progress is 55
+[Debug] [2023-10-28 08:07:28] The value of Progress is 60
+[Debug] [2023-10-28 08:07:28] The value of Progress is 65
+[Debug] [2023-10-28 08:07:29] The value of Progress is 70
+[Debug] [2023-10-28 08:07:29] The value of Progress is 75
+[Debug] [2023-10-28 08:07:29] The value of Progress is 80
+[Debug] [2023-10-28 08:07:29] The value of Progress is 85
+[Debug] [2023-10-28 08:07:29] The value of Progress is 90
+[Debug] [2023-10-28 08:07:29] The value of Progress is 95
+[Debug] [2023-10-28 08:07:29] The value of Progress is 100
+[Debug] [2023-10-28 08:07:29] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-28 08:07:29] end to send jtag flash verify cmd
+[Debug] [2023-10-28 08:07:29] end to send jtag flash program cmd.
+[Info] [2023-10-28 16:33:00] /***************************End Configration***************************/
+[Info] [2023-10-28 17:00:08] /***************************Start Configuration***************************/
+[Info] [2023-10-28 17:00:08] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-10-28 17:00:08] Version: 99559
+[Info] [2023-10-28 17:00:09] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-10-28 17:00:09] PDS Dir Path: E:/PangoPro/tinyriscv
+[Debug] [2023-10-28 17:00:11] Begin to Converte file.
+[Debug] [2023-10-28 17:00:19] begin to parse sfc file.
+[Debug] [2023-10-28 17:00:19] begin to get device info from CFG file...
+[Debug] [2023-10-28 17:00:19] end to get device info from CFG file...
+[Debug] [2023-10-28 17:00:19] begin to get device info from CFG file...
+[Debug] [2023-10-28 17:00:19] end to get device info from CFG file...
+[Debug] [2023-10-28 17:00:19] end to parse sfc file.
+[Debug] [2023-10-28 17:00:20] End to Converte file.
+[Info] [2023-10-28 17:03:36] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-10-28 17:03:37] Client Local host name:GGB
+[Debug] [2023-10-28 17:03:37] Client Local Address:10.133.253.224
+[Debug] [2023-10-28 17:03:37] Client Local Address:192.168.137.1
+[Debug] [2023-10-28 17:03:37] Server Address:127.0.0.1, Port:65420
+[Info] [2023-10-28 17:03:37] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-10-28 17:03:37] Finish.
+[Info] [2023-10-28 17:03:37] Connect server succeeded
+[Debug] [2023-10-28 17:03:37] Send RPC:1
+[Debug] [2023-10-28 17:03:37] Send cmd [check version information:40005] OK
+[Debug] [2023-10-28 17:03:37] Send RPC:2
+[Debug] [2023-10-28 17:03:37] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-10-28 17:03:37] Begin to send initialize chain cmd...
+[Debug] [2023-10-28 17:03:37] Send RPC:3
+[Debug] [2023-10-28 17:03:37] Send cmd [Open config cable:20001] OK
+[Debug] [2023-10-28 17:03:37] End to send initialize chain cmd.
+[Debug] [2023-10-28 17:03:37] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2023-10-28 17:03:38] COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2023-10-28 17:03:39] begin the exec of open cable cmd...
+[Debug] [2023-10-28 17:03:39] Begin to deal with chain from server...
+[Debug] [2023-10-28 17:03:39] Begin to set user chain...
+[Debug] [2023-10-28 17:03:39] End to set user chain.
+[Debug] [2023-10-28 17:03:39] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 17:03:39] End to update graphic item and tree item ...
+[Info] [2023-10-28 17:03:40] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-10-28 17:03:40] begin to get device info from CFG file...
+[Debug] [2023-10-28 17:03:40] end to get device info from CFG file...
+[Debug] [2023-10-28 17:03:40] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 17:03:40] End to update graphic item and tree item ...
+[Debug] [2023-10-28 17:03:40] End to deal wiht chain from server.
+[Debug] [2023-10-28 17:03:40] end the exec of open cable cmd.
+[Debug] [2023-10-28 17:03:40] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2023-10-28 17:03:42] Begin to send programming cmd...
+[Debug] [2023-10-28 17:03:42] Send RPC:4
+[Debug] [2023-10-28 17:03:42] Begin to send program data.
+[Debug] [2023-10-28 17:03:42] End to send program data.
+[Debug] [2023-10-28 17:03:42] Send cmd [Program:20002] OK
+[Debug] [2023-10-28 17:03:42] The value of Progress is 6
+[Debug] [2023-10-28 17:03:42] The value of Progress is 10
+[Debug] [2023-10-28 17:03:42] The value of Progress is 15
+[Debug] [2023-10-28 17:03:42] The value of Progress is 20
+[Debug] [2023-10-28 17:03:43] The value of Progress is 25
+[Debug] [2023-10-28 17:03:43] The value of Progress is 30
+[Debug] [2023-10-28 17:03:43] The value of Progress is 35
+[Debug] [2023-10-28 17:03:43] The value of Progress is 40
+[Debug] [2023-10-28 17:03:43] The value of Progress is 45
+[Debug] [2023-10-28 17:03:43] The value of Progress is 50
+[Debug] [2023-10-28 17:03:43] The value of Progress is 55
+[Debug] [2023-10-28 17:03:43] Begin to send abort process cmd.
+[Debug] [2023-10-28 17:03:43] Begin to flush aborting cmd. 
+[Debug] [2023-10-28 17:03:43] End to flush aborting cmd. 
+[Debug] [2023-10-28 17:03:43] End to send abort process cmd.
+[Debug] [2023-10-28 17:03:43] End to send programming cmd.
+[Debug] [2023-10-28 17:03:43] COMMAND[Program] execute successfully, takes 1.5 secs.
+[Debug] [2023-10-28 17:03:47] Begin to send scan outer flash cmd...
+[Debug] [2023-10-28 17:03:47] Send RPC:5
+[Debug] [2023-10-28 17:03:47] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-10-28 17:03:47] End to send scan outer flash cmd.
+[Debug] [2023-10-28 17:03:47] begin to exec scan jtag flash cmd...
+[Debug] [2023-10-28 17:03:47] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-10-28 17:03:47] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 17:03:47] End to update graphic item and tree item ...
+[Info] [2023-10-28 17:03:50] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-10-28 17:03:50] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-28 17:03:50] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-10-28 17:03:50] Begin to update graphic item and tree item ...
+[Debug] [2023-10-28 17:03:50] End to update graphic item and tree item ...
+[Debug] [2023-10-28 17:03:50] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-10-28 17:03:50] end to exec scan jtag flash cmd...
+[Debug] [2023-10-28 17:03:50] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.8 secs.
+[Debug] [2023-10-28 17:03:51] begin to send promgram jtag flash cmd.
+[Debug] [2023-10-28 17:03:51] begin to send jtag flash erase cmd
+[Debug] [2023-10-28 17:03:51] Send RPC:6
+[Debug] [2023-10-28 17:03:51] Begin to send embed flash erase data.
+[Debug] [2023-10-28 17:03:51] Begin to send flash erase data.
+[Debug] [2023-10-28 17:03:51] End to send flash erase data.
+[Debug] [2023-10-28 17:03:51] End to send embed flash erase data.
+[Debug] [2023-10-28 17:03:51] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-10-28 17:03:52] The value of Progress is 1
+[Debug] [2023-10-28 17:03:53] The value of Progress is 6
+[Debug] [2023-10-28 17:03:53] The value of Progress is 12
+[Debug] [2023-10-28 17:03:54] The value of Progress is 15
+[Debug] [2023-10-28 17:03:55] The value of Progress is 21
+[Debug] [2023-10-28 17:03:55] The value of Progress is 27
+[Debug] [2023-10-28 17:03:56] The value of Progress is 30
+[Debug] [2023-10-28 17:03:57] The value of Progress is 36
+[Debug] [2023-10-28 17:03:57] The value of Progress is 42
+[Debug] [2023-10-28 17:03:58] The value of Progress is 45
+[Debug] [2023-10-28 17:03:58] The value of Progress is 51
+[Debug] [2023-10-28 17:03:59] The value of Progress is 57
+[Debug] [2023-10-28 17:04:00] The value of Progress is 60
+[Debug] [2023-10-28 17:04:00] The value of Progress is 66
+[Debug] [2023-10-28 17:04:01] The value of Progress is 72
+[Debug] [2023-10-28 17:04:02] The value of Progress is 75
+[Debug] [2023-10-28 17:04:02] The value of Progress is 81
+[Debug] [2023-10-28 17:04:03] The value of Progress is 87
+[Debug] [2023-10-28 17:04:04] The value of Progress is 90
+[Debug] [2023-10-28 17:04:04] The value of Progress is 96
+[Debug] [2023-10-28 17:04:04] The value of Progress is 100
+[Debug] [2023-10-28 17:04:05] COMMAND[Erase Outer Flash] execute finish, takes 13.2 secs.
+[Debug] [2023-10-28 17:04:05] end to send jtag flash erase cmd.
+[Debug] [2023-10-28 17:04:05] Send RPC:7
+[Debug] [2023-10-28 17:04:05] Begin to send jtag flash program data.
+[Debug] [2023-10-28 17:04:05] Begin to send flash program data.
+[Debug] [2023-10-28 17:04:05] End to send flash program data.
+[Debug] [2023-10-28 17:04:05] End to send embed flash program data.
+[Debug] [2023-10-28 17:04:05] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-10-28 17:04:07] The value of Progress is 1
+[Debug] [2023-10-28 17:04:09] The value of Progress is 6
+[Debug] [2023-10-28 17:04:10] The value of Progress is 10
+[Debug] [2023-10-28 17:04:12] The value of Progress is 15
+[Debug] [2023-10-28 17:04:13] The value of Progress is 20
+[Debug] [2023-10-28 17:04:15] The value of Progress is 25
+[Debug] [2023-10-28 17:04:17] The value of Progress is 30
+[Debug] [2023-10-28 17:04:18] The value of Progress is 35
+[Debug] [2023-10-28 17:04:20] The value of Progress is 40
+[Debug] [2023-10-28 17:04:22] The value of Progress is 45
+[Debug] [2023-10-28 17:04:23] The value of Progress is 50
+[Debug] [2023-10-28 17:04:25] The value of Progress is 55
+[Debug] [2023-10-28 17:04:26] The value of Progress is 60
+[Debug] [2023-10-28 17:04:28] The value of Progress is 65
+[Debug] [2023-10-28 17:04:30] The value of Progress is 70
+[Debug] [2023-10-28 17:04:31] The value of Progress is 75
+[Debug] [2023-10-28 17:04:33] The value of Progress is 80
+[Debug] [2023-10-28 17:04:35] The value of Progress is 85
+[Debug] [2023-10-28 17:04:36] The value of Progress is 90
+[Debug] [2023-10-28 17:04:38] The value of Progress is 95
+[Debug] [2023-10-28 17:04:40] The value of Progress is 100
+[Debug] [2023-10-28 17:04:40] COMMAND[Program Outer Flash] execute finish, takes 35.1 secs.
+[Debug] [2023-10-28 17:04:40] begin to send jtag flash verify cmd
+[Debug] [2023-10-28 17:04:40] Send RPC:8
+[Debug] [2023-10-28 17:04:40] Begin to send embed flash verify data.
+[Debug] [2023-10-28 17:04:40] Begin to send flash verify data.
+[Debug] [2023-10-28 17:04:40] End to send flash verify data.
+[Debug] [2023-10-28 17:04:40] End to send embed flash verify data.
+[Debug] [2023-10-28 17:04:40] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-10-28 17:04:40] The value of Progress is 1
+[Debug] [2023-10-28 17:04:40] The value of Progress is 6
+[Debug] [2023-10-28 17:04:40] The value of Progress is 10
+[Debug] [2023-10-28 17:04:40] The value of Progress is 15
+[Debug] [2023-10-28 17:04:40] The value of Progress is 20
+[Debug] [2023-10-28 17:04:40] The value of Progress is 25
+[Debug] [2023-10-28 17:04:40] The value of Progress is 30
+[Debug] [2023-10-28 17:04:41] The value of Progress is 35
+[Debug] [2023-10-28 17:04:41] The value of Progress is 40
+[Debug] [2023-10-28 17:04:41] The value of Progress is 45
+[Debug] [2023-10-28 17:04:41] The value of Progress is 50
+[Debug] [2023-10-28 17:04:41] The value of Progress is 55
+[Debug] [2023-10-28 17:04:41] The value of Progress is 60
+[Debug] [2023-10-28 17:04:41] The value of Progress is 65
+[Debug] [2023-10-28 17:04:41] The value of Progress is 70
+[Debug] [2023-10-28 17:04:41] The value of Progress is 75
+[Debug] [2023-10-28 17:04:41] The value of Progress is 80
+[Debug] [2023-10-28 17:04:42] The value of Progress is 85
+[Debug] [2023-10-28 17:04:42] The value of Progress is 90
+[Debug] [2023-10-28 17:04:42] The value of Progress is 95
+[Debug] [2023-10-28 17:04:42] The value of Progress is 100
+[Debug] [2023-10-28 17:04:42] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-10-28 17:04:42] end to send jtag flash verify cmd
+[Debug] [2023-10-28 17:04:42] end to send jtag flash program cmd.
+[Info] [2023-10-28 17:15:37] /***************************End Configration***************************/
+[Info] [2023-11-2 03:35:07] /***************************Start Configuration***************************/
+[Info] [2023-11-2 03:35:07] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-11-2 03:35:07] Version: 99559
+[Info] [2023-11-2 03:35:08] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-11-2 03:35:08] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-11-2 03:35:11] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-11-2 03:35:11] Client Local host name:GGB
+[Debug] [2023-11-2 03:35:11] Client Local Address:10.133.253.224
+[Debug] [2023-11-2 03:35:11] Client Local Address:192.168.137.1
+[Debug] [2023-11-2 03:35:11] Server Address:127.0.0.1, Port:65420
+[Info] [2023-11-2 03:35:11] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-11-2 03:35:11] Finish.
+[Info] [2023-11-2 03:35:11] Connect server succeeded
+[Debug] [2023-11-2 03:35:11] Send RPC:1
+[Debug] [2023-11-2 03:35:11] Send cmd [check version information:40005] OK
+[Debug] [2023-11-2 03:35:11] Send RPC:2
+[Debug] [2023-11-2 03:35:11] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-11-2 03:35:11] Begin to send initialize chain cmd...
+[Debug] [2023-11-2 03:35:11] Send RPC:3
+[Debug] [2023-11-2 03:35:11] Send cmd [Open config cable:20001] OK
+[Debug] [2023-11-2 03:35:11] End to send initialize chain cmd.
+[Debug] [2023-11-2 03:35:11] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-11-2 03:35:12] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2023-11-2 03:35:13] begin the exec of open cable cmd...
+[Debug] [2023-11-2 03:35:13] Begin to deal with chain from server...
+[Debug] [2023-11-2 03:35:13] Begin to set user chain...
+[Debug] [2023-11-2 03:35:13] End to set user chain.
+[Debug] [2023-11-2 03:35:13] Begin to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:13] End to update graphic item and tree item ...
+[Info] [2023-11-2 03:35:15] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-11-2 03:35:15] begin to get device info from CFG file...
+[Debug] [2023-11-2 03:35:15] end to get device info from CFG file...
+[Debug] [2023-11-2 03:35:15] Begin to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:15] End to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:15] End to deal wiht chain from server.
+[Debug] [2023-11-2 03:35:15] end the exec of open cable cmd.
+[Debug] [2023-11-2 03:35:15] COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2023-11-2 03:35:17] Begin to send scan outer flash cmd...
+[Debug] [2023-11-2 03:35:17] Send RPC:4
+[Debug] [2023-11-2 03:35:17] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-11-2 03:35:17] End to send scan outer flash cmd.
+[Debug] [2023-11-2 03:35:18] begin to exec scan jtag flash cmd...
+[Debug] [2023-11-2 03:35:18] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-11-2 03:35:18] Begin to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:18] End to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:20] selected file name is empty and ignore.
+[Debug] [2023-11-2 03:35:20] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-11-2 03:35:20] end to exec scan jtag flash cmd...
+[Debug] [2023-11-2 03:35:20] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-11-2 03:35:24] Begin to Converte file.
+[Debug] [2023-11-2 03:35:31] begin to parse sfc file.
+[Debug] [2023-11-2 03:35:31] begin to get device info from CFG file...
+[Debug] [2023-11-2 03:35:31] end to get device info from CFG file...
+[Debug] [2023-11-2 03:35:31] begin to get device info from CFG file...
+[Debug] [2023-11-2 03:35:31] end to get device info from CFG file...
+[Debug] [2023-11-2 03:35:31] end to parse sfc file.
+[Debug] [2023-11-2 03:35:32] End to Converte file.
+[Debug] [2023-11-2 03:35:34] Begin to assign configuration file...
+[Info] [2023-11-2 03:35:36] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-11-2 03:35:36] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-11-2 03:35:36] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-11-2 03:35:36] Begin to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:36] End to update graphic item and tree item ...
+[Debug] [2023-11-2 03:35:36] End to assign configuration file...
+[Debug] [2023-11-2 03:35:38] begin to send promgram jtag flash cmd.
+[Debug] [2023-11-2 03:35:38] begin to send jtag flash erase cmd
+[Debug] [2023-11-2 03:35:38] Send RPC:5
+[Debug] [2023-11-2 03:35:38] Begin to send embed flash erase data.
+[Debug] [2023-11-2 03:35:38] Begin to send flash erase data.
+[Debug] [2023-11-2 03:35:38] End to send flash erase data.
+[Debug] [2023-11-2 03:35:38] End to send embed flash erase data.
+[Debug] [2023-11-2 03:35:38] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-11-2 03:35:38] The value of Progress is 1
+[Debug] [2023-11-2 03:35:39] The value of Progress is 6
+[Debug] [2023-11-2 03:35:40] The value of Progress is 12
+[Debug] [2023-11-2 03:35:40] The value of Progress is 15
+[Debug] [2023-11-2 03:35:41] The value of Progress is 21
+[Debug] [2023-11-2 03:35:42] The value of Progress is 27
+[Debug] [2023-11-2 03:35:42] The value of Progress is 30
+[Debug] [2023-11-2 03:35:43] The value of Progress is 36
+[Debug] [2023-11-2 03:35:44] The value of Progress is 42
+[Debug] [2023-11-2 03:35:45] The value of Progress is 45
+[Debug] [2023-11-2 03:35:45] The value of Progress is 51
+[Debug] [2023-11-2 03:35:46] The value of Progress is 57
+[Debug] [2023-11-2 03:35:46] The value of Progress is 60
+[Debug] [2023-11-2 03:35:47] The value of Progress is 66
+[Debug] [2023-11-2 03:35:48] The value of Progress is 72
+[Debug] [2023-11-2 03:35:48] The value of Progress is 75
+[Debug] [2023-11-2 03:35:49] The value of Progress is 81
+[Debug] [2023-11-2 03:35:50] The value of Progress is 87
+[Debug] [2023-11-2 03:35:50] The value of Progress is 90
+[Debug] [2023-11-2 03:35:51] The value of Progress is 96
+[Debug] [2023-11-2 03:35:51] The value of Progress is 100
+[Debug] [2023-11-2 03:35:51] COMMAND[Erase Outer Flash] execute finish, takes 13.5 secs.
+[Debug] [2023-11-2 03:35:51] end to send jtag flash erase cmd.
+[Debug] [2023-11-2 03:35:51] Send RPC:6
+[Debug] [2023-11-2 03:35:51] Begin to send jtag flash program data.
+[Debug] [2023-11-2 03:35:51] Begin to send flash program data.
+[Debug] [2023-11-2 03:35:51] End to send flash program data.
+[Debug] [2023-11-2 03:35:51] End to send embed flash program data.
+[Debug] [2023-11-2 03:35:51] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-11-2 03:35:53] The value of Progress is 1
+[Debug] [2023-11-2 03:35:55] The value of Progress is 6
+[Debug] [2023-11-2 03:35:57] The value of Progress is 10
+[Debug] [2023-11-2 03:35:58] The value of Progress is 15
+[Debug] [2023-11-2 03:36:00] The value of Progress is 20
+[Debug] [2023-11-2 03:36:02] The value of Progress is 25
+[Debug] [2023-11-2 03:36:03] The value of Progress is 30
+[Debug] [2023-11-2 03:36:05] The value of Progress is 35
+[Debug] [2023-11-2 03:36:07] The value of Progress is 40
+[Debug] [2023-11-2 03:36:08] The value of Progress is 45
+[Debug] [2023-11-2 03:36:10] The value of Progress is 50
+[Debug] [2023-11-2 03:36:12] The value of Progress is 55
+[Debug] [2023-11-2 03:36:13] The value of Progress is 60
+[Debug] [2023-11-2 03:36:15] The value of Progress is 65
+[Debug] [2023-11-2 03:36:16] The value of Progress is 70
+[Debug] [2023-11-2 03:36:18] The value of Progress is 75
+[Debug] [2023-11-2 03:36:20] The value of Progress is 80
+[Debug] [2023-11-2 03:36:21] The value of Progress is 85
+[Debug] [2023-11-2 03:36:23] The value of Progress is 90
+[Debug] [2023-11-2 03:36:25] The value of Progress is 95
+[Debug] [2023-11-2 03:36:26] The value of Progress is 100
+[Debug] [2023-11-2 03:36:26] COMMAND[Program Outer Flash] execute finish, takes 35.0 secs.
+[Debug] [2023-11-2 03:36:26] begin to send jtag flash verify cmd
+[Debug] [2023-11-2 03:36:26] Send RPC:7
+[Debug] [2023-11-2 03:36:26] Begin to send embed flash verify data.
+[Debug] [2023-11-2 03:36:26] Begin to send flash verify data.
+[Debug] [2023-11-2 03:36:26] End to send flash verify data.
+[Debug] [2023-11-2 03:36:26] End to send embed flash verify data.
+[Debug] [2023-11-2 03:36:26] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-11-2 03:36:27] The value of Progress is 1
+[Debug] [2023-11-2 03:36:27] The value of Progress is 6
+[Debug] [2023-11-2 03:36:27] The value of Progress is 10
+[Debug] [2023-11-2 03:36:27] The value of Progress is 15
+[Debug] [2023-11-2 03:36:27] The value of Progress is 20
+[Debug] [2023-11-2 03:36:27] The value of Progress is 25
+[Debug] [2023-11-2 03:36:27] The value of Progress is 30
+[Debug] [2023-11-2 03:36:27] The value of Progress is 35
+[Debug] [2023-11-2 03:36:27] The value of Progress is 40
+[Debug] [2023-11-2 03:36:27] The value of Progress is 45
+[Debug] [2023-11-2 03:36:28] The value of Progress is 50
+[Debug] [2023-11-2 03:36:28] The value of Progress is 55
+[Debug] [2023-11-2 03:36:28] The value of Progress is 60
+[Debug] [2023-11-2 03:36:28] The value of Progress is 65
+[Debug] [2023-11-2 03:36:28] The value of Progress is 70
+[Debug] [2023-11-2 03:36:28] The value of Progress is 75
+[Debug] [2023-11-2 03:36:28] The value of Progress is 80
+[Debug] [2023-11-2 03:36:28] The value of Progress is 85
+[Debug] [2023-11-2 03:36:28] The value of Progress is 90
+[Debug] [2023-11-2 03:36:29] The value of Progress is 95
+[Debug] [2023-11-2 03:36:29] The value of Progress is 100
+[Debug] [2023-11-2 03:36:29] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-11-2 03:36:29] end to send jtag flash verify cmd
+[Debug] [2023-11-2 03:36:29] end to send jtag flash program cmd.
+[Info] [2023-11-2 15:34:08] /***************************End Configration***************************/
+[Info] [2023-11-3 22:18:54] /***************************Start Configuration***************************/
+[Info] [2023-11-3 22:18:54] Path: E:/Pango/PDS_2022.1/bin
+[Info] [2023-11-3 22:18:54] Version: 99559
+[Info] [2023-11-3 22:18:55] Current Path: E:/PangoPro/tinyriscv
+[Info] [2023-11-3 22:18:55] PDS Dir Path: E:/PangoPro/tinyriscv
+[Info] [2023-11-3 22:18:58] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-11-3 22:18:58] Client Local host name:GGB
+[Debug] [2023-11-3 22:18:58] Client Local Address:10.133.155.76
+[Debug] [2023-11-3 22:18:58] Client Local Address:192.168.137.1
+[Debug] [2023-11-3 22:18:58] Server Address:127.0.0.1, Port:65420
+[Info] [2023-11-3 22:18:59] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-11-3 22:18:59] Finish.
+[Info] [2023-11-3 22:18:59] Connect server succeeded
+[Debug] [2023-11-3 22:18:59] Send RPC:1
+[Debug] [2023-11-3 22:18:59] Send cmd [check version information:40005] OK
+[Debug] [2023-11-3 22:19:00] Send RPC:2
+[Debug] [2023-11-3 22:19:00] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-11-3 22:19:00] Begin to send initialize chain cmd...
+[Debug] [2023-11-3 22:19:00] Send RPC:3
+[Debug] [2023-11-3 22:19:00] Send cmd [Open config cable:20001] OK
+[Debug] [2023-11-3 22:19:00] End to send initialize chain cmd.
+[Debug] [2023-11-3 22:19:00] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2023-11-3 22:19:01] COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2023-11-3 22:19:01] begin the exec of open cable cmd...
+[Debug] [2023-11-3 22:19:01] Begin to deal with chain from server...
+[Debug] [2023-11-3 22:19:01] Begin to set user chain...
+[Debug] [2023-11-3 22:19:01] End to set user chain.
+[Debug] [2023-11-3 22:19:01] Begin to update graphic item and tree item ...
+[Debug] [2023-11-3 22:19:01] End to update graphic item and tree item ...
+[Info] [2023-11-3 22:19:04] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sbit
+[Debug] [2023-11-3 22:19:04] begin to get device info from CFG file...
+[Debug] [2023-11-3 22:19:04] end to get device info from CFG file...
+[Debug] [2023-11-3 22:19:04] Begin to update graphic item and tree item ...
+[Debug] [2023-11-3 22:19:04] End to update graphic item and tree item ...
+[Debug] [2023-11-3 22:19:04] End to deal wiht chain from server.
+[Debug] [2023-11-3 22:19:04] end the exec of open cable cmd.
+[Debug] [2023-11-3 22:19:04] COMMAND[Open config cable] execute successfully, takes 4.4 secs.
+[Debug] [2023-11-3 22:19:06] Begin to send programming cmd...
+[Debug] [2023-11-3 22:19:06] Send RPC:4
+[Debug] [2023-11-3 22:19:06] Begin to send program data.
+[Debug] [2023-11-3 22:19:06] End to send program data.
+[Debug] [2023-11-3 22:19:06] Send cmd [Program:20002] OK
+[Debug] [2023-11-3 22:19:07] The value of Progress is 6
+[Debug] [2023-11-3 22:19:07] The value of Progress is 10
+[Debug] [2023-11-3 22:19:07] The value of Progress is 15
+[Debug] [2023-11-3 22:19:07] The value of Progress is 20
+[Debug] [2023-11-3 22:19:07] The value of Progress is 25
+[Debug] [2023-11-3 22:19:07] The value of Progress is 30
+[Debug] [2023-11-3 22:19:07] The value of Progress is 35
+[Debug] [2023-11-3 22:19:07] The value of Progress is 40
+[Debug] [2023-11-3 22:19:07] The value of Progress is 45
+[Debug] [2023-11-3 22:19:07] The value of Progress is 50
+[Debug] [2023-11-3 22:19:08] The value of Progress is 55
+[Debug] [2023-11-3 22:19:08] The value of Progress is 60
+[Debug] [2023-11-3 22:19:08] The value of Progress is 65
+[Debug] [2023-11-3 22:19:08] The value of Progress is 70
+[Debug] [2023-11-3 22:19:08] The value of Progress is 75
+[Debug] [2023-11-3 22:19:08] The value of Progress is 80
+[Debug] [2023-11-3 22:19:08] The value of Progress is 85
+[Debug] [2023-11-3 22:19:08] The value of Progress is 90
+[Debug] [2023-11-3 22:19:08] The value of Progress is 95
+[Debug] [2023-11-3 22:19:08] The value of Progress is 100
+[Debug] [2023-11-3 22:19:09] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-11-3 22:19:09] End to send programming cmd.
+[Debug] [2023-11-3 23:54:02] Begin to send scan outer flash cmd...
+[Debug] [2023-11-3 23:54:02] Send RPC:5
+[Debug] [2023-11-3 23:54:02] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-11-3 23:54:02] End to send scan outer flash cmd.
+[Debug] [2023-11-3 23:54:03] begin to exec scan jtag flash cmd...
+[Debug] [2023-11-3 23:54:03] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-11-3 23:54:03] Begin to update graphic item and tree item ...
+[Debug] [2023-11-3 23:54:03] End to update graphic item and tree item ...
+[Info] [2023-11-3 23:54:04] set OpenLastPath: E:/PangoPro/tinyriscv/generate_bitstream/tinyriscv_soc_top.sfc
+[Debug] [2023-11-3 23:54:04] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-11-3 23:54:04] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-11-3 23:54:04] Begin to update graphic item and tree item ...
+[Debug] [2023-11-3 23:54:04] End to update graphic item and tree item ...
+[Debug] [2023-11-3 23:54:04] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-11-3 23:54:04] end to exec scan jtag flash cmd...
+[Debug] [2023-11-3 23:54:04] COMMAND[Scan Outer SPI Flash] execute successfully, takes 1.7 secs.
+[Debug] [2023-11-3 23:54:08] Begin to Converte file.
+[Debug] [2023-11-3 23:54:16] begin to parse sfc file.
+[Debug] [2023-11-3 23:54:16] begin to get device info from CFG file...
+[Debug] [2023-11-3 23:54:16] end to get device info from CFG file...
+[Debug] [2023-11-3 23:54:16] begin to get device info from CFG file...
+[Debug] [2023-11-3 23:54:16] end to get device info from CFG file...
+[Debug] [2023-11-3 23:54:16] end to parse sfc file.
+[Debug] [2023-11-3 23:54:17] End to Converte file.
+[Debug] [2023-11-3 23:54:20] begin to send promgram jtag flash cmd.
+[Debug] [2023-11-3 23:54:20] begin to send jtag flash erase cmd
+[Debug] [2023-11-3 23:54:20] Send RPC:6
+[Debug] [2023-11-3 23:54:20] Begin to send embed flash erase data.
+[Debug] [2023-11-3 23:54:20] Begin to send flash erase data.
+[Debug] [2023-11-3 23:54:20] End to send flash erase data.
+[Debug] [2023-11-3 23:54:20] End to send embed flash erase data.
+[Debug] [2023-11-3 23:54:20] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-11-3 23:54:20] The value of Progress is 1
+[Debug] [2023-11-3 23:54:21] The value of Progress is 6
+[Debug] [2023-11-3 23:54:22] The value of Progress is 12
+[Debug] [2023-11-3 23:54:22] The value of Progress is 15
+[Debug] [2023-11-3 23:54:23] The value of Progress is 21
+[Debug] [2023-11-3 23:54:24] The value of Progress is 27
+[Debug] [2023-11-3 23:54:24] The value of Progress is 30
+[Debug] [2023-11-3 23:54:25] The value of Progress is 36
+[Debug] [2023-11-3 23:54:26] The value of Progress is 42
+[Debug] [2023-11-3 23:54:26] The value of Progress is 45
+[Debug] [2023-11-3 23:54:27] The value of Progress is 51
+[Debug] [2023-11-3 23:54:28] The value of Progress is 57
+[Debug] [2023-11-3 23:54:29] The value of Progress is 60
+[Debug] [2023-11-3 23:54:29] The value of Progress is 66
+[Debug] [2023-11-3 23:54:30] The value of Progress is 72
+[Debug] [2023-11-3 23:54:31] The value of Progress is 75
+[Debug] [2023-11-3 23:54:32] The value of Progress is 81
+[Debug] [2023-11-3 23:54:32] The value of Progress is 87
+[Debug] [2023-11-3 23:54:33] The value of Progress is 90
+[Debug] [2023-11-3 23:54:34] The value of Progress is 96
+[Debug] [2023-11-3 23:54:34] The value of Progress is 100
+[Debug] [2023-11-3 23:54:34] COMMAND[Erase Outer Flash] execute finish, takes 14.3 secs.
+[Debug] [2023-11-3 23:54:34] end to send jtag flash erase cmd.
+[Debug] [2023-11-3 23:54:34] Send RPC:7
+[Debug] [2023-11-3 23:54:34] Begin to send jtag flash program data.
+[Debug] [2023-11-3 23:54:34] Begin to send flash program data.
+[Debug] [2023-11-3 23:54:34] End to send flash program data.
+[Debug] [2023-11-3 23:54:34] End to send embed flash program data.
+[Debug] [2023-11-3 23:54:34] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-11-3 23:54:36] The value of Progress is 1
+[Debug] [2023-11-3 23:54:38] The value of Progress is 6
+[Debug] [2023-11-3 23:54:39] The value of Progress is 10
+[Debug] [2023-11-3 23:54:41] The value of Progress is 15
+[Debug] [2023-11-3 23:54:43] The value of Progress is 20
+[Debug] [2023-11-3 23:54:44] The value of Progress is 25
+[Debug] [2023-11-3 23:54:46] The value of Progress is 30
+[Debug] [2023-11-3 23:54:48] The value of Progress is 35
+[Debug] [2023-11-3 23:54:49] The value of Progress is 40
+[Debug] [2023-11-3 23:54:51] The value of Progress is 45
+[Debug] [2023-11-3 23:54:53] The value of Progress is 50
+[Debug] [2023-11-3 23:54:54] The value of Progress is 55
+[Debug] [2023-11-3 23:54:56] The value of Progress is 60
+[Debug] [2023-11-3 23:54:57] The value of Progress is 65
+[Debug] [2023-11-3 23:54:59] The value of Progress is 70
+[Debug] [2023-11-3 23:55:01] The value of Progress is 75
+[Debug] [2023-11-3 23:55:02] The value of Progress is 80
+[Debug] [2023-11-3 23:55:04] The value of Progress is 85
+[Debug] [2023-11-3 23:55:06] The value of Progress is 90
+[Debug] [2023-11-3 23:55:07] The value of Progress is 95
+[Debug] [2023-11-3 23:55:09] The value of Progress is 100
+[Debug] [2023-11-3 23:55:09] COMMAND[Program Outer Flash] execute finish, takes 35.1 secs.
+[Debug] [2023-11-3 23:55:09] begin to send jtag flash verify cmd
+[Debug] [2023-11-3 23:55:09] Send RPC:8
+[Debug] [2023-11-3 23:55:09] Begin to send embed flash verify data.
+[Debug] [2023-11-3 23:55:09] Begin to send flash verify data.
+[Debug] [2023-11-3 23:55:09] End to send flash verify data.
+[Debug] [2023-11-3 23:55:09] End to send embed flash verify data.
+[Debug] [2023-11-3 23:55:09] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-11-3 23:55:09] The value of Progress is 1
+[Debug] [2023-11-3 23:55:09] The value of Progress is 6
+[Debug] [2023-11-3 23:55:09] The value of Progress is 10
+[Debug] [2023-11-3 23:55:10] The value of Progress is 15
+[Debug] [2023-11-3 23:55:10] The value of Progress is 20
+[Debug] [2023-11-3 23:55:10] The value of Progress is 25
+[Debug] [2023-11-3 23:55:10] The value of Progress is 30
+[Debug] [2023-11-3 23:55:10] The value of Progress is 35
+[Debug] [2023-11-3 23:55:10] The value of Progress is 40
+[Debug] [2023-11-3 23:55:10] The value of Progress is 45
+[Debug] [2023-11-3 23:55:10] The value of Progress is 50
+[Debug] [2023-11-3 23:55:10] The value of Progress is 55
+[Debug] [2023-11-3 23:55:11] The value of Progress is 60
+[Debug] [2023-11-3 23:55:11] The value of Progress is 65
+[Debug] [2023-11-3 23:55:11] The value of Progress is 70
+[Debug] [2023-11-3 23:55:11] The value of Progress is 75
+[Debug] [2023-11-3 23:55:11] The value of Progress is 80
+[Debug] [2023-11-3 23:55:11] The value of Progress is 85
+[Debug] [2023-11-3 23:55:11] The value of Progress is 90
+[Debug] [2023-11-3 23:55:11] The value of Progress is 95
+[Debug] [2023-11-3 23:55:11] The value of Progress is 100
+[Debug] [2023-11-3 23:55:12] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-11-3 23:55:12] end to send jtag flash verify cmd
+[Debug] [2023-11-3 23:55:12] end to send jtag flash program cmd.
+[Info] [2023-11-3 23:56:48] /***************************End Configration***************************/
