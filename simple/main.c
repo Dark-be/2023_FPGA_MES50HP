@@ -683,10 +683,10 @@ void ui_draw_gameover(){
     lcd_draw_string(LCD_HEIGHT/2-144, LCD_WIDTH/2+0,"GAME OVER",COLOR_BLACK,2);
     lcd_draw_string(LCD_HEIGHT/2-140, LCD_WIDTH/2+4,"GAME OVER",COLOR_WHITE,2);
     for(int i=0;i<500;i++){
-        // BUZZ_DOWN();
-        // DELAY_MS(2);
-        // BUZZ_UP();
-        // DELAY_MS(2);
+        BUZZ_DOWN();
+        DELAY_MS(2);
+        BUZZ_UP();
+        DELAY_MS(2);
     }
 }
 
@@ -792,6 +792,7 @@ int main()
 #pragma endregion
     
     uint8_t key_press = 0;
+    uint8_t music=0;
     
     while(1){
 #pragma region Start in Frame
@@ -803,21 +804,32 @@ int main()
         }
         else if(data==0){
             if(GPIO_STATE(4)==0){
+                DELAY_MS(10);
+                if(GPIO_STATE(4)==0)
                 data = COMMAND_A;
             }
             else if(GPIO_STATE(5)==0){
+                DELAY_MS(10);
+                if(GPIO_STATE(5)==0)
                 data = COMMAND_W;
             }
             else if(GPIO_STATE(6)==0){
+                DELAY_MS(10);
+                if(GPIO_STATE(6)==0)
                 data = COMMAND_S;
             }
             else if(GPIO_STATE(7)==0){
+                DELAY_MS(10);
+                if(GPIO_STATE(7)==0)
                 data = COMMAND_D;
             }
             else if(GPIO_STATE(3)==0){
+                DELAY_MS(10);
+                if(GPIO_STATE(3)==0)
                 data = COMMAND_Q;
             }
-            key_press=10;
+            
+            key_press=3;
         }
 #pragma endregion
         
@@ -979,17 +991,29 @@ int main()
         }
         else {
             if(state==0){
-                for(int i=0;i<50;i++){
+                music++;
+                if(music==100){
+                    music=0;
+                }
+                if(music/25==0){
+                    for(int i=0;i<5;i++){
                     PLAY(500);
+                    }
                 }
-                for(int i=0;i<50;i++){
-                    PLAY(700);
+                else if(music/25==1){
+                    for(int i=0;i<5;i++){
+                    PLAY(300);
+                    }
                 }
-                for(int i=0;i<50;i++){
+                else if(music/25==2){
+                    for(int i=0;i<5;i++){
                     PLAY(500);
+                    }
                 }
-                for(int i=0;i<50;i++){
+                else if(music/25==3){
+                    for(int i=0;i<5;i++){
                     PLAY(800);
+                    }
                 }
             }
 
